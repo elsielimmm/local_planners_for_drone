@@ -1,0 +1,41 @@
+Starting >>> pcl_conversions
+Starting >>> quadrotor_msgs
+Starting >>> cmake_utils
+Starting >>> traj_utils
+Starting >>> pose_utils
+Starting >>> drone_detect
+Starting >>> waypoint_generator
+Finished <<< cmake_utils [0.79s]
+Starting >>> uav_utils
+--- stderr: pcl_conversions
+CMake Error at CMakeLists.txt:18 (find_package):
+  By not providing "Findpcl_msgs.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "pcl_msgs",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "pcl_msgs" with any
+  of the following names:
+
+    pcl_msgsConfig.cmake
+    pcl_msgs-config.cmake
+
+  Add the installation prefix of "pcl_msgs" to CMAKE_PREFIX_PATH or set
+  "pcl_msgs_DIR" to a directory containing one of the above files.  If
+  "pcl_msgs" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+---
+Failed   <<< pcl_conversions [1.49s, exited with code 1]
+Aborted  <<< quadrotor_msgs [1.50s]
+Aborted  <<< uav_utils [0.76s]
+Aborted  <<< traj_utils [2.75s]
+Aborted  <<< pose_utils [3.68s]
+Aborted  <<< waypoint_generator [10.3s]
+Aborted  <<< drone_detect [16.6s]
+
+Summary: 1 package finished [16.8s]
+  1 package failed: pcl_conversions
+  6 packages aborted: drone_detect pose_utils quadrotor_msgs traj_utils uav_utils waypoint_generator
+  5 packages had stderr output: drone_detect pcl_conversions pose_utils traj_utils waypoint_generator
+  15 packages not processed

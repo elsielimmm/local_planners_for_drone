@@ -1,0 +1,69 @@
+[35m[1mConsolidate compiler generated dependencies of target plan_env[0m
+[ 33%] Built target obj_generator
+[ 50%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/grid_map.cpp.o[0m
+[01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:759:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  759 | msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K
+      |                                 [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:6[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  173 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:759:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  759 | msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K
+      |                                 [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:7[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  115 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:806:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  806 | :msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K
+      |                                 [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/home/quangsang/ego_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:18[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:194:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  194 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1031:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ 1031 | s::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K
+      |                                 [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:10[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1046:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ 1046 | s::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K
+      |                                 [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:6[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  173 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1046:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+ 1046 | s::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K
+      |                                 [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:10[m[K,
+                 from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  146 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/plan_env.dir/build.make:76: CMakeFiles/plan_env.dir/src/grid_map.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plan_env.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

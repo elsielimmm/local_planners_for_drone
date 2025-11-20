@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "traj_utils__py",
+		"source" : "/home/quangsang/ego_ws/build/traj_utils/traj_utils__py"
+	}
+}

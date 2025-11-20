@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pcl_msgs__py",
+		"source" : "/home/quangsang/ego_ws/build/pcl_msgs/pcl_msgs__py"
+	}
+}

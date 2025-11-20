@@ -1,0 +1,180 @@
+[0.011s] Invoking command in '/home/quangsang/ego_ws/build/path_searching': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/path_searching -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/path_searching
+[0.048s] -- The C compiler identification is GNU 9.5.0
+[0.084s] -- The CXX compiler identification is GNU 9.5.0
+[0.089s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.144s] -- Detecting C compile features - done
+[0.145s] -- Detecting CXX compiler ABI info
+[0.201s] -- Detecting CXX compiler ABI info - done
+[0.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.206s] -- Detecting CXX compile features - done
+[0.208s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.320s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.387s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.422s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.427s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.433s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.488s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.490s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.508s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.515s] -- Looking for pthread.h
+[0.563s] -- Looking for pthread.h - found
+[0.563s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.614s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.614s] -- Found Threads: TRUE  
+[0.652s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.654s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.686s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.695s] -- Found plan_env: 0.0.0 (/home/quangsang/ego_ws/install/plan_env/share/plan_env/cmake)
+[0.697s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.720s] -- Checking for module 'eigen3'
+[0.731s] --   Found eigen3, version 3.4.0
+[0.756s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.756s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.774s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.786s] -- Checking for module 'flann'
+[0.799s] --   Found flann, version 1.9.1
+[0.833s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.833s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.855s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.860s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.962s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.962s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.964s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.971s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.983s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.991s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.070s] -- Found X11: /usr/include   
+[1.070s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.121s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.121s] -- Looking for gethostbyname
+[1.172s] -- Looking for gethostbyname - found
+[1.172s] -- Looking for connect
+[1.221s] -- Looking for connect - found
+[1.221s] -- Looking for remove
+[1.268s] -- Looking for remove - found
+[1.268s] -- Looking for shmat
+[1.326s] -- Looking for shmat - found
+[1.326s] -- Looking for IceConnectionNumber in ICE
+[1.377s] -- Looking for IceConnectionNumber in ICE - found
+[1.449s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.450s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.452s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.453s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.462s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.467s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.469s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.472s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.532s] -- Checking for module 'libusb-1.0'
+[1.543s] --   Found libusb-1.0, version 1.0.25
+[1.571s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.572s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.572s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.617s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.617s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.617s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.733s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.738s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.742s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.866s] -- Found Qhull version 8.0.2
+[1.982s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.105s] -- looking for PCL_COMMON
+[2.106s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.106s] -- looking for PCL_KDTREE
+[2.107s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.107s] -- looking for PCL_OCTREE
+[2.107s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.108s] -- looking for PCL_SEARCH
+[2.108s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.108s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.109s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.109s] -- looking for PCL_FILTERS
+[2.109s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.109s] -- looking for PCL_2D
+[2.109s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.110s] -- looking for PCL_GEOMETRY
+[2.110s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.110s] -- looking for PCL_IO
+[2.110s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.110s] -- looking for PCL_FEATURES
+[2.111s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.111s] -- looking for PCL_ML
+[2.112s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.112s] -- looking for PCL_SEGMENTATION
+[2.112s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.112s] -- looking for PCL_VISUALIZATION
+[2.113s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.113s] -- looking for PCL_SURFACE
+[2.114s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.114s] -- looking for PCL_REGISTRATION
+[2.114s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.114s] -- looking for PCL_KEYPOINTS
+[2.115s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.115s] -- looking for PCL_TRACKING
+[2.115s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.116s] -- looking for PCL_RECOGNITION
+[2.116s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.116s] -- looking for PCL_STEREO
+[2.117s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.117s] -- looking for PCL_APPS
+[2.117s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.118s] -- looking for PCL_IN_HAND_SCANNER
+[2.118s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.118s] -- looking for PCL_MODELER
+[2.118s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.118s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.118s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.118s] -- looking for PCL_OUTOFCORE
+[2.119s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.119s] -- looking for PCL_PEOPLE
+[2.120s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.120s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.121s] -- Found pcl_conversions: 2.4.5 (/home/quangsang/ego_ws/install/pcl_conversions/share/pcl_conversions/cmake)
+[2.138s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.210s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.210s] -- Configured cppcheck include dirs: /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/path_searching/include
+[2.210s] -- Configured cppcheck exclude dirs and/or files: 
+[2.211s] -- Added test 'lint_cmake' to check CMake code style
+[2.212s] -- Added test 'uncrustify' to check C / C++ code style
+[2.212s] -- Configured uncrustify additional arguments: 
+[2.212s] -- Added test 'xmllint' to check XML markup files
+[2.214s] -- Configuring done
+[2.231s] -- Generating done
+[2.236s] -- Build files have been written to: /home/quangsang/ego_ws/build/path_searching
+[2.249s] Invoked command in '/home/quangsang/ego_ws/build/path_searching' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/path_searching -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/path_searching
+[2.250s] Invoking command in '/home/quangsang/ego_ws/build/path_searching': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/quangsang/ego_ws/build/path_searching -- -j20 -l20
+[2.292s] [ 50%] [32mBuilding CXX object CMakeFiles/path_searching.dir/src/dyn_a_star.cpp.o[0m
+[7.435s] [100%] [32m[1mLinking CXX shared library libpath_searching.so[0m
+[7.654s] [100%] Built target path_searching
+[7.663s] Invoked command in '/home/quangsang/ego_ws/build/path_searching' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/quangsang/ego_ws/build/path_searching -- -j20 -l20
+[7.664s] Invoking command in '/home/quangsang/ego_ws/build/path_searching': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/quangsang/ego_ws/build/path_searching
+[7.669s] -- Install configuration: "Release"
+[7.669s] -- Installing: /home/quangsang/ego_ws/install/path_searching/lib/libpath_searching.so
+[7.671s] -- Set runtime path of "/home/quangsang/ego_ws/install/path_searching/lib/libpath_searching.so" to ""
+[7.671s] -- Installing: /home/quangsang/ego_ws/install/path_searching/include/path_searching
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/environment/library_path.sh
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/environment/library_path.dsv
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/ament_index/resource_index/package_run_dependencies/path_searching
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/ament_index/resource_index/parent_prefix_path/path_searching
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/environment/ament_prefix_path.sh
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/environment/ament_prefix_path.dsv
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/environment/path.sh
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/environment/path.dsv
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/local_setup.bash
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/local_setup.sh
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/local_setup.zsh
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/local_setup.dsv
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/package.dsv
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/ament_index/resource_index/packages/path_searching
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/cmake/ament_cmake_export_libraries-extras.cmake
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/cmake/path_searchingConfig.cmake
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/cmake/path_searchingConfig-version.cmake
+[7.672s] -- Installing: /home/quangsang/ego_ws/install/path_searching/share/path_searching/package.xml
+[7.673s] Invoked command in '/home/quangsang/ego_ws/build/path_searching' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/quangsang/ego_ws/build/path_searching

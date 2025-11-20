@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-91c76b63f68b60291dfa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pcl_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pcd_to_pointcloud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcd_to_pointcloud-2743a7b84021c3511fa1.json",
+					"name" : "pcd_to_pointcloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcd_to_pointcloud_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcd_to_pointcloud_lib-c0050b8a87f99d6966c4.json",
+					"name" : "pcd_to_pointcloud_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcl_ros_tf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcl_ros_tf-e4c5fa47fde71031b23e.json",
+					"name" : "pcl_ros_tf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcl_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcl_ros_uninstall-60c45ed7e423e775ef90.json",
+					"name" : "pcl_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-85cf0df2804534066231.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/quangsang/ego_ws/build/pcl_ros",
+		"source" : "/home/quangsang/ego_ws/src/perception_pcl/pcl_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

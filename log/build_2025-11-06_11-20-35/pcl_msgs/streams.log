@@ -1,0 +1,365 @@
+[0.022s] Invoking command in '/home/quangsang/ego_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake /home/quangsang/ego_ws/src/pcl_msgs -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/pcl_msgs
+[0.057s] -- The C compiler identification is GNU 9.5.0
+[0.096s] -- The CXX compiler identification is GNU 9.5.0
+[0.101s] -- Detecting C compiler ABI info
+[0.145s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.150s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.152s] -- Detecting CXX compiler ABI info
+[0.202s] -- Detecting CXX compiler ABI info - done
+[0.208s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.208s] -- Detecting CXX compile features
+[0.208s] -- Detecting CXX compile features - done
+[0.210s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.320s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.387s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.398s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.448s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.703s] -- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.705s] -- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.706s] -- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.708s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.210s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.233s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.234s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.258s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.259s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.259s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.259s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.276s] -- Found PythonExtra: .so  
+[1.351s] -- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.354s] -- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.358s] -- Configuring done
+[1.382s] -- Generating done
+[1.391s] -- Build files have been written to: /home/quangsang/ego_ws/build/pcl_msgs
+[1.399s] Invoked command in '/home/quangsang/ego_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake /home/quangsang/ego_ws/src/pcl_msgs -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/pcl_msgs
+[1.401s] Invoking command in '/home/quangsang/ego_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/pcl_msgs -- -j20 -l20
+[1.431s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.439s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.447s] [  3%] Built target ament_cmake_python_copy_pcl_msgs
+[1.652s] running egg_info
+[1.652s] creating pcl_msgs.egg-info
+[1.652s] writing pcl_msgs.egg-info/PKG-INFO
+[1.652s] writing dependency_links to pcl_msgs.egg-info/dependency_links.txt
+[1.652s] writing top-level names to pcl_msgs.egg-info/top_level.txt
+[1.653s] writing manifest file 'pcl_msgs.egg-info/SOURCES.txt'
+[1.654s] reading manifest file 'pcl_msgs.egg-info/SOURCES.txt'
+[1.655s] writing manifest file 'pcl_msgs.egg-info/SOURCES.txt'
+[1.677s] [  3%] Built target ament_cmake_python_build_pcl_msgs_egg
+[1.767s] [  3%] Built target pcl_msgs__cpp
+[1.784s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.785s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.785s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.809s] [ 14%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_c.dir/rosidl_generator_c/pcl_msgs/msg/detail/point_indices__functions.c.o[0m
+[1.809s] [ 14%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_c.dir/rosidl_generator_c/pcl_msgs/msg/detail/vertices__functions.c.o[0m
+[1.809s] [ 14%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_c.dir/rosidl_generator_c/pcl_msgs/msg/detail/polygon_mesh__functions.c.o[0m
+[1.810s] [ 14%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_c.dir/rosidl_generator_c/pcl_msgs/msg/detail/model_coefficients__functions.c.o[0m
+[1.811s] [ 15%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_c.dir/rosidl_generator_c/pcl_msgs/srv/detail/update_filename__functions.c.o[0m
+[1.863s] [ 17%] [32m[1mLinking C shared library libpcl_msgs__rosidl_generator_c.so[0m
+[1.907s] [ 17%] Built target pcl_msgs__rosidl_generator_c
+[1.919s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.919s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.919s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.067s] [ 25%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pcl_msgs/msg/model_coefficients__type_support.cpp.o[0m
+[2.067s] [ 25%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pcl_msgs/msg/point_indices__type_support.cpp.o[0m
+[2.073s] [ 26%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pcl_msgs/msg/polygon_mesh__type_support.cpp.o[0m
+[2.074s] [ 28%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pcl_msgs/msg/vertices__type_support.cpp.o[0m
+[2.075s] [ 30%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pcl_msgs/srv/update_filename__type_support.cpp.o[0m
+[2.221s] [ 31%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pcl_msgs/msg/detail/model_coefficients__type_support.cpp.o[0m
+[2.233s] [ 33%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pcl_msgs/msg/detail/point_indices__type_support.cpp.o[0m
+[2.233s] [ 34%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pcl_msgs/msg/detail/polygon_mesh__type_support.cpp.o[0m
+[2.243s] [ 36%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pcl_msgs/msg/detail/vertices__type_support.cpp.o[0m
+[2.255s] [ 38%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pcl_msgs/srv/detail/update_filename__type_support.cpp.o[0m
+[2.291s] [ 39%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pcl_msgs/msg/detail/dds_fastrtps/model_coefficients__type_support.cpp.o[0m
+[2.296s] [ 42%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pcl_msgs/msg/detail/dds_fastrtps/point_indices__type_support.cpp.o[0m
+[2.297s] [ 44%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pcl_msgs/msg/detail/dds_fastrtps/vertices__type_support.cpp.o[0m
+[2.299s] [ 44%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pcl_msgs/msg/detail/dds_fastrtps/polygon_mesh__type_support.cpp.o[0m
+[2.302s] [ 46%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pcl_msgs/srv/detail/dds_fastrtps/update_filename__type_support.cpp.o[0m
+[2.362s] [ 47%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pcl_msgs/msg/model_coefficients__type_support.cpp.o[0m
+[2.367s] [ 49%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pcl_msgs/msg/point_indices__type_support.cpp.o[0m
+[2.374s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pcl_msgs/msg/polygon_mesh__type_support.cpp.o[0m
+[2.382s] [ 52%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pcl_msgs/msg/vertices__type_support.cpp.o[0m
+[2.384s] [ 53%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pcl_msgs/srv/update_filename__type_support.cpp.o[0m
+[2.434s] [ 55%] [32m[1mLinking CXX shared library libpcl_msgs__rosidl_typesupport_cpp.so[0m
+[2.438s] [ 57%] [32m[1mLinking CXX shared library libpcl_msgs__rosidl_typesupport_c.so[0m
+[2.442s] [ 58%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pcl_msgs/msg/detail/model_coefficients__type_support_c.cpp.o[0m
+[2.446s] [ 61%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pcl_msgs/msg/detail/polygon_mesh__type_support_c.cpp.o[0m
+[2.451s] [ 60%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pcl_msgs/msg/detail/point_indices__type_support_c.cpp.o[0m
+[2.459s] [ 65%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pcl_msgs/msg/detail/vertices__type_support_c.cpp.o[0m
+[2.462s] [ 66%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pcl_msgs/msg/detail/model_coefficients__type_support.c.o[0m
+[2.463s] [ 66%] [32mBuilding CXX object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pcl_msgs/srv/detail/update_filename__type_support_c.cpp.o[0m
+[2.468s] [ 69%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pcl_msgs/msg/detail/point_indices__type_support.c.o[0m
+[2.475s] [ 69%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pcl_msgs/msg/detail/polygon_mesh__type_support.c.o[0m
+[2.496s] [ 69%] Built target pcl_msgs__rosidl_typesupport_cpp
+[2.505s] [ 71%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pcl_msgs/msg/detail/vertices__type_support.c.o[0m
+[2.529s] [ 73%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pcl_msgs/srv/detail/update_filename__type_support.c.o[0m
+[2.530s] [ 73%] Built target pcl_msgs__rosidl_typesupport_c
+[2.576s] [ 74%] [32m[1mLinking C shared library libpcl_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.638s] [ 74%] Built target pcl_msgs__rosidl_typesupport_introspection_c
+[2.788s] [ 76%] [32m[1mLinking CXX shared library libpcl_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.830s] [ 77%] [32m[1mLinking CXX shared library libpcl_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.860s] [ 79%] [32m[1mLinking CXX shared library libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.908s] [ 79%] Built target pcl_msgs__rosidl_typesupport_fastrtps_c
+[2.937s] [ 79%] Built target pcl_msgs__rosidl_typesupport_introspection_cpp
+[3.015s] [ 79%] Built target pcl_msgs__rosidl_typesupport_fastrtps_cpp
+[3.033s] [ 79%] Built target pcl_msgs
+[3.047s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.870s] [ 80%] Built target pcl_msgs__py
+[3.915s] [ 82%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_py.dir/rosidl_generator_py/pcl_msgs/msg/_model_coefficients_s.c.o[0m
+[3.930s] [ 84%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_py.dir/rosidl_generator_py/pcl_msgs/msg/_polygon_mesh_s.c.o[0m
+[3.933s] [ 85%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_py.dir/rosidl_generator_py/pcl_msgs/msg/_vertices_s.c.o[0m
+[3.938s] [ 87%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_py.dir/rosidl_generator_py/pcl_msgs/msg/_point_indices_s.c.o[0m
+[3.944s] [ 88%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_generator_py.dir/rosidl_generator_py/pcl_msgs/srv/_update_filename_s.c.o[0m
+[4.123s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/pcl_msgs/libpcl_msgs__rosidl_generator_py.so[0m
+[4.214s] [ 90%] Built target pcl_msgs__rosidl_generator_py
+[4.257s] [ 92%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.264s] [ 93%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.269s] [ 95%] [32mBuilding C object CMakeFiles/pcl_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.380s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.416s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.417s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.462s] [100%] Built target pcl_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.502s] [100%] Built target pcl_msgs__rosidl_typesupport_c__pyext
+[4.526s] [100%] Built target pcl_msgs__rosidl_typesupport_introspection_c__pyext
+[4.554s] Invoked command in '/home/quangsang/ego_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/pcl_msgs -- -j20 -l20
+[4.562s] Invoking command in '/home/quangsang/ego_ws/build/pcl_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/pcl_msgs
+[4.574s] -- Install configuration: ""
+[4.576s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/ament_index/resource_index/rosidl_interfaces/pcl_msgs
+[4.577s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs
+[4.577s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg
+[4.577s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.577s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail
+[4.577s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__struct.h
+[4.577s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__functions.c
+[4.577s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__functions.h
+[4.577s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__functions.h
+[4.577s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__functions.c
+[4.577s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__struct.h
+[4.583s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__struct.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__functions.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__type_support.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__functions.c
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__functions.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__type_support.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__type_support.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__type_support.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__functions.c
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/vertices.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/point_indices.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/polygon_mesh.h
+[4.584s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/model_coefficients.h
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/update_filename.h
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__functions.h
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__struct.h
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__functions.c
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__type_support.h
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/environment/library_path.sh
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/environment/library_path.dsv
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_generator_c.so
+[4.585s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_generator_c.so" to ""
+[4.585s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs
+[4.585s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg
+[4.585s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.585s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail
+[4.586s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_fastrtps_c.h
+[4.586s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_fastrtps_c.h
+[4.586s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_fastrtps_c.h
+[4.586s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_fastrtps_c.h
+[4.586s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv
+[4.586s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail
+[4.586s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_fastrtps_c.h
+[4.586s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_c.so
+[4.587s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.587s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs
+[4.587s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg
+[4.587s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail
+[4.587s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__type_support.c
+[4.587s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_introspection_c.h
+[4.587s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_introspection_c.h
+[4.587s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__type_support.c
+[4.587s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_introspection_c.h
+[4.587s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__type_support.c
+[4.587s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_introspection_c.h
+[4.587s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__type_support.c
+[4.587s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.588s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv
+[4.588s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail
+[4.588s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__type_support.c
+[4.588s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_introspection_c.h
+[4.588s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so
+[4.589s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.589s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_c.so
+[4.591s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_c.so" to ""
+[4.591s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs
+[4.592s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg
+[4.592s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/model_coefficients.hpp
+[4.592s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/polygon_mesh.hpp
+[4.592s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/vertices.hpp
+[4.592s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail
+[4.592s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__type_support.hpp
+[4.592s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__type_support.hpp
+[4.592s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__struct.hpp
+[4.592s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__type_support.hpp
+[4.592s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__struct.hpp
+[4.592s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__builder.hpp
+[4.592s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__builder.hpp
+[4.593s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__type_support.hpp
+[4.593s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__builder.hpp
+[4.593s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__builder.hpp
+[4.593s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__traits.hpp
+[4.593s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__traits.hpp
+[4.594s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__traits.hpp
+[4.594s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__struct.hpp
+[4.594s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__struct.hpp
+[4.594s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__traits.hpp
+[4.594s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/point_indices.hpp
+[4.594s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.594s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv
+[4.594s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail
+[4.594s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__type_support.hpp
+[4.594s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__traits.hpp
+[4.594s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__struct.hpp
+[4.595s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__builder.hpp
+[4.595s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/update_filename.hpp
+[4.595s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs
+[4.595s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg
+[4.595s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail
+[4.595s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_fastrtps_cpp.hpp
+[4.595s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[4.595s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_fastrtps_cpp.hpp
+[4.598s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/dds_fastrtps
+[4.598s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_fastrtps_cpp.hpp
+[4.599s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.599s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv
+[4.599s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail
+[4.599s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_fastrtps_cpp.hpp
+[4.599s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/dds_fastrtps
+[4.599s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.599s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.599s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs
+[4.599s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg
+[4.599s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail
+[4.599s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__rosidl_typesupport_introspection_cpp.hpp
+[4.599s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/vertices__type_support.cpp
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__rosidl_typesupport_introspection_cpp.hpp
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__type_support.cpp
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__type_support.cpp
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/model_coefficients__rosidl_typesupport_introspection_cpp.hpp
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/point_indices__type_support.cpp
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/msg/detail/polygon_mesh__rosidl_typesupport_introspection_cpp.hpp
+[4.600s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv
+[4.600s] -- Up-to-date: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__type_support.cpp
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/include/pcl_msgs/pcl_msgs/srv/detail/update_filename__rosidl_typesupport_introspection_cpp.hpp
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so
+[4.600s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_cpp.so
+[4.600s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_typesupport_cpp.so" to ""
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/environment/pythonpath.sh
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/environment/pythonpath.dsv
+[4.600s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_model_coefficients.py
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_vertices_s.c
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_vertices.py
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_point_indices.py
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_model_coefficients_s.c
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/__init__.py
+[4.601s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_polygon_mesh.py
+[4.603s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_point_indices_s.c
+[4.603s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_polygon_mesh_s.c
+[4.603s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/libpcl_msgs__rosidl_generator_py.so
+[4.603s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv
+[4.603s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/_update_filename.py
+[4.603s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/_update_filename_s.c
+[4.603s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/__init__.py
+[4.603s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/__init__.py
+[4.603s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.603s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.604s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/_pcl_msgs_s.ep.rosidl_typesupport_c.c
+[4.693s] Listing '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs'...
+[4.693s] Compiling '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/__init__.py'...
+[4.693s] Listing '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg'...
+[4.693s] Compiling '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/__init__.py'...
+[4.693s] Compiling '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_model_coefficients.py'...
+[4.693s] Compiling '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_point_indices.py'...
+[4.693s] Compiling '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_polygon_mesh.py'...
+[4.693s] Compiling '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/msg/_vertices.py'...
+[4.693s] Listing '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv'...
+[4.694s] Compiling '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/__init__.py'...
+[4.694s] Compiling '/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/srv/_update_filename.py'...
+[4.707s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.708s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.708s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.708s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.709s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.709s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages/pcl_msgs/pcl_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.712s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_generator_py.so
+[4.713s] -- Set runtime path of "/home/quangsang/ego_ws/install/pcl_msgs/lib/libpcl_msgs__rosidl_generator_py.so" to ""
+[4.713s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/msg/ModelCoefficients.idl
+[4.713s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/msg/PointIndices.idl
+[4.713s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/msg/PolygonMesh.idl
+[4.713s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/msg/Vertices.idl
+[4.714s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename.idl
+[4.714s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/msg/ModelCoefficients.msg
+[4.714s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/msg/PointIndices.msg
+[4.714s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/msg/PolygonMesh.msg
+[4.714s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/msg/Vertices.msg
+[4.714s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename.srv
+[4.714s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename_Request.msg
+[4.714s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/srv/UpdateFilename_Response.msg
+[4.714s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/ament_index/resource_index/package_run_dependencies/pcl_msgs
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/ament_index/resource_index/parent_prefix_path/pcl_msgs
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/environment/ament_prefix_path.sh
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/environment/ament_prefix_path.dsv
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/environment/path.sh
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/environment/path.dsv
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/local_setup.bash
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/local_setup.sh
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/local_setup.zsh
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/local_setup.dsv
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/package.dsv
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/ament_index/resource_index/packages/pcl_msgs
+[4.715s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_cExport.cmake
+[4.716s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.716s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.716s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.716s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.716s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.716s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cExport.cmake
+[4.716s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.717s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_cppExport.cmake
+[4.721s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.721s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.721s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.721s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.723s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cppExport.cmake
+[4.723s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_pyExport.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/export_pcl_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake-extras.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgsConfig.cmake
+[4.724s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/cmake/pcl_msgsConfig-version.cmake
+[4.728s] -- Installing: /home/quangsang/ego_ws/install/pcl_msgs/share/pcl_msgs/package.xml
+[4.730s] Invoked command in '/home/quangsang/ego_ws/build/pcl_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/pcl_msgs

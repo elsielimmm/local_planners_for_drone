@@ -1,0 +1,22 @@
+[0.024s] Invoking command in '/home/quangsang/ego_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/waypoint_generator -- -j20 -l20
+[0.073s] [100%] Built target waypoint_generator
+[0.098s] Invoked command in '/home/quangsang/ego_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/waypoint_generator -- -j20 -l20
+[0.100s] Invoking command in '/home/quangsang/ego_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/waypoint_generator
+[0.108s] -- Install configuration: ""
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_generator
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/ament_index/resource_index/package_run_dependencies/waypoint_generator
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/ament_index/resource_index/parent_prefix_path/waypoint_generator
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.sh
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.dsv
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/environment/path.sh
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/environment/path.dsv
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/local_setup.bash
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/local_setup.sh
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/local_setup.zsh
+[0.108s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/local_setup.dsv
+[0.109s] -- Installing: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/package.dsv
+[0.109s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/ament_index/resource_index/packages/waypoint_generator
+[0.109s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig.cmake
+[0.109s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig-version.cmake
+[0.109s] -- Up-to-date: /home/quangsang/ego_ws/install/waypoint_generator/share/waypoint_generator/package.xml
+[0.126s] Invoked command in '/home/quangsang/ego_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/waypoint_generator

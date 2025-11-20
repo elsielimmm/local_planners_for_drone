@@ -1,0 +1,423 @@
+[0.017s] Invoking command in '/home/quangsang/ego_ws/build/traj_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/traj_utils
+[0.049s] -- The C compiler identification is GNU 9.5.0
+[0.084s] -- The CXX compiler identification is GNU 9.5.0
+[0.091s] -- Detecting C compiler ABI info
+[0.141s] -- Detecting C compiler ABI info - done
+[0.147s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.147s] -- Detecting C compile features
+[0.148s] -- Detecting C compile features - done
+[0.151s] -- Detecting CXX compiler ABI info
+[0.203s] -- Detecting CXX compiler ABI info - done
+[0.208s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.208s] -- Detecting CXX compile features
+[0.209s] -- Detecting CXX compile features - done
+[0.211s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.322s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.386s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.416s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.419s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.424s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.471s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.473s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.487s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.493s] -- Looking for pthread.h
+[0.544s] -- Looking for pthread.h - found
+[0.544s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.596s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.597s] -- Found Threads: TRUE  
+[0.630s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.638s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.661s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.684s] -- Checking for module 'eigen3'
+[0.696s] --   Found eigen3, version 3.4.0
+[0.721s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.721s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.738s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.750s] -- Checking for module 'flann'
+[0.762s] --   Found flann, version 1.9.1
+[0.794s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.795s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.820s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.825s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.919s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.919s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.922s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.932s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.947s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.955s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.041s] -- Found X11: /usr/include   
+[1.041s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.092s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.092s] -- Looking for gethostbyname
+[1.149s] -- Looking for gethostbyname - found
+[1.149s] -- Looking for connect
+[1.201s] -- Looking for connect - found
+[1.201s] -- Looking for remove
+[1.251s] -- Looking for remove - found
+[1.251s] -- Looking for shmat
+[1.304s] -- Looking for shmat - found
+[1.304s] -- Looking for IceConnectionNumber in ICE
+[1.356s] -- Looking for IceConnectionNumber in ICE - found
+[1.437s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.439s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.441s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.442s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.453s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.460s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.463s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.467s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.529s] -- Checking for module 'libusb-1.0'
+[1.540s] --   Found libusb-1.0, version 1.0.25
+[1.578s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.579s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.579s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.639s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.639s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.639s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.880s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.888s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.894s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.113s] -- Found Qhull version 8.0.2
+[2.458s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.756s] -- looking for PCL_COMMON
+[2.756s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.757s] -- looking for PCL_KDTREE
+[2.757s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.757s] -- looking for PCL_OCTREE
+[2.758s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.758s] -- looking for PCL_SEARCH
+[2.759s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.759s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.760s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.760s] -- looking for PCL_FILTERS
+[2.761s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.761s] -- looking for PCL_2D
+[2.761s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.761s] -- looking for PCL_GEOMETRY
+[2.762s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.762s] -- looking for PCL_IO
+[2.763s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.763s] -- looking for PCL_FEATURES
+[2.763s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.763s] -- looking for PCL_ML
+[2.764s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.764s] -- looking for PCL_SEGMENTATION
+[2.765s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.765s] -- looking for PCL_VISUALIZATION
+[2.766s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.766s] -- looking for PCL_SURFACE
+[2.767s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.767s] -- looking for PCL_REGISTRATION
+[2.767s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.768s] -- looking for PCL_KEYPOINTS
+[2.768s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.768s] -- looking for PCL_TRACKING
+[2.769s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.769s] -- looking for PCL_RECOGNITION
+[2.770s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.770s] -- looking for PCL_STEREO
+[2.770s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.770s] -- looking for PCL_APPS
+[2.771s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.771s] -- looking for PCL_IN_HAND_SCANNER
+[2.771s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.772s] -- looking for PCL_MODELER
+[2.772s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.772s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.772s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.772s] -- looking for PCL_OUTOFCORE
+[2.773s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.773s] -- looking for PCL_PEOPLE
+[2.773s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.774s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.063s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.820s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.879s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.883s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.964s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.966s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.966s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.966s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.031s] -- Found PythonExtra: .so  
+[4.172s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.207s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.208s] -- Configured cppcheck include dirs: /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils/include
+[4.208s] -- Configured cppcheck exclude dirs and/or files: 
+[4.209s] -- Added test 'lint_cmake' to check CMake code style
+[4.211s] -- Added test 'uncrustify' to check C / C++ code style
+[4.211s] -- Configured uncrustify additional arguments: 
+[4.212s] -- Added test 'xmllint' to check XML markup files
+[4.216s] -- Configuring done
+[4.299s] -- Generating done
+[4.322s] -- Build files have been written to: /home/quangsang/ego_ws/build/traj_utils
+[4.361s] Invoked command in '/home/quangsang/ego_ws/build/traj_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/traj_utils
+[4.370s] Invoking command in '/home/quangsang/ego_ws/build/traj_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/traj_utils -- -j20 -l20
+[4.473s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.486s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.515s] [  6%] [32mBuilding CXX object CMakeFiles/traj_utils_lib.dir/src/planning_visualization.cpp.o[0m
+[4.521s] [  8%] [32mBuilding CXX object CMakeFiles/traj_utils_lib.dir/src/polynomial_traj.cpp.o[0m
+[4.528s] [  8%] Built target ament_cmake_python_copy_traj_utils
+[5.010s] [ 10%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_c.dir/rosidl_generator_c/traj_utils/msg/detail/bspline__functions.c.o[0m
+[5.012s] running egg_info
+[5.012s] creating traj_utils.egg-info
+[5.013s] writing traj_utils.egg-info/PKG-INFO
+[5.013s] writing dependency_links to traj_utils.egg-info/dependency_links.txt
+[5.013s] writing top-level names to traj_utils.egg-info/top_level.txt
+[5.013s] writing manifest file 'traj_utils.egg-info/SOURCES.txt'
+[5.013s] [ 12%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_c.dir/rosidl_generator_c/traj_utils/msg/detail/data_disp__functions.c.o[0m
+[5.019s] reading manifest file 'traj_utils.egg-info/SOURCES.txt'
+[5.019s] writing manifest file 'traj_utils.egg-info/SOURCES.txt'
+[5.021s] [ 14%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_c.dir/rosidl_generator_c/traj_utils/msg/detail/multi_bsplines__functions.c.o[0m
+[5.069s] [ 14%] Built target ament_cmake_python_build_traj_utils_egg
+[5.139s] [ 14%] Built target traj_utils__cpp
+[5.162s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.163s] [ 18%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.163s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.232s] [ 22%] [32m[1mLinking C shared library libtraj_utils__rosidl_generator_c.so[0m
+[5.282s] [ 22%] Built target traj_utils__rosidl_generator_c
+[5.297s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.304s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.305s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.486s] [ 30%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traj_utils/msg/bspline__type_support.cpp.o[0m
+[5.498s] [ 32%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traj_utils/msg/multi_bsplines__type_support.cpp.o[0m
+[5.499s] [ 34%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/traj_utils/msg/data_disp__type_support.cpp.o[0m
+[5.545s] [ 36%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traj_utils/msg/detail/multi_bsplines__type_support.cpp.o[0m
+[5.545s] [ 38%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traj_utils/msg/detail/bspline__type_support.cpp.o[0m
+[5.553s] [ 40%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/traj_utils/msg/detail/data_disp__type_support.cpp.o[0m
+[5.553s] [ 42%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traj_utils/msg/detail/dds_fastrtps/bspline__type_support.cpp.o[0m
+[5.553s] [ 44%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traj_utils/msg/detail/dds_fastrtps/multi_bsplines__type_support.cpp.o[0m
+[5.560s] [ 46%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/traj_utils/msg/detail/dds_fastrtps/data_disp__type_support.cpp.o[0m
+[5.632s] [ 48%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_c.dir/rosidl_typesupport_c/traj_utils/msg/bspline__type_support.cpp.o[0m
+[5.636s] [ 50%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_c.dir/rosidl_typesupport_c/traj_utils/msg/multi_bsplines__type_support.cpp.o[0m
+[5.637s] [ 52%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_c.dir/rosidl_typesupport_c/traj_utils/msg/data_disp__type_support.cpp.o[0m
+[5.696s] [ 56%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traj_utils/msg/detail/bspline__type_support_c.cpp.o[0m
+[5.701s] [ 56%] [32m[1mLinking CXX shared library libtraj_utils__rosidl_typesupport_c.so[0m
+[5.703s] [ 58%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traj_utils/msg/detail/data_disp__type_support_c.cpp.o[0m
+[5.707s] [ 60%] [32mBuilding CXX object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/traj_utils/msg/detail/multi_bsplines__type_support_c.cpp.o[0m
+[5.724s] [ 64%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traj_utils/msg/detail/data_disp__type_support.c.o[0m
+[5.724s] [ 64%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traj_utils/msg/detail/bspline__type_support.c.o[0m
+[5.725s] [ 66%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/traj_utils/msg/detail/multi_bsplines__type_support.c.o[0m
+[5.767s] [ 66%] Built target traj_utils__rosidl_typesupport_c
+[5.813s] [ 68%] [32m[1mLinking CXX shared library libtraj_utils__rosidl_typesupport_cpp.so[0m
+[5.835s] [ 70%] [32m[1mLinking C shared library libtraj_utils__rosidl_typesupport_introspection_c.so[0m
+[5.882s] [ 70%] Built target traj_utils__rosidl_typesupport_introspection_c
+[5.890s] [ 70%] Built target traj_utils__rosidl_typesupport_cpp
+[6.114s] [ 72%] [32m[1mLinking CXX shared library libtraj_utils__rosidl_typesupport_fastrtps_c.so[0m
+[6.168s] [ 74%] [32m[1mLinking CXX shared library libtraj_utils__rosidl_typesupport_introspection_cpp.so[0m
+[6.189s] [ 74%] Built target traj_utils__rosidl_typesupport_fastrtps_c
+[6.244s] [ 74%] Built target traj_utils__rosidl_typesupport_introspection_cpp
+[6.454s] [ 76%] [32m[1mLinking CXX shared library libtraj_utils__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.509s] [ 76%] Built target traj_utils__rosidl_typesupport_fastrtps_cpp
+[6.530s] [ 76%] Built target traj_utils
+[6.555s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.845s] [ 78%] Built target traj_utils__py
+[6.862s] [ 80%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_py.dir/rosidl_generator_py/traj_utils/msg/_bspline_s.c.o[0m
+[6.862s] [ 82%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_py.dir/rosidl_generator_py/traj_utils/msg/_multi_bsplines_s.c.o[0m
+[6.863s] [ 84%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_generator_py.dir/rosidl_generator_py/traj_utils/msg/_data_disp_s.c.o[0m
+[6.996s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/traj_utils/libtraj_utils__rosidl_generator_py.so[0m
+[7.045s] [ 86%] Built target traj_utils__rosidl_generator_py
+[7.059s] [ 88%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/traj_utils/_traj_utils_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.061s] [ 90%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/traj_utils/_traj_utils_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.063s] [ 92%] [32mBuilding C object CMakeFiles/traj_utils__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/traj_utils/_traj_utils_s.ep.rosidl_typesupport_c.c.o[0m
+[7.137s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.163s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.172s] [ 96%] Built target traj_utils__rosidl_typesupport_introspection_c__pyext
+[7.204s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.208s] [ 98%] Built target traj_utils__rosidl_typesupport_c__pyext
+[7.266s] [ 98%] Built target traj_utils__rosidl_typesupport_fastrtps_c__pyext
+[8.001s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::PlanningVisualization::displayMarkerList(rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >::SharedPtr&, const std::vector<Eigen::Matrix<double, 3, 1> >&, double, Eigen::Vector4d, int, bool)[m[K’:
+[8.001s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils/src/planning_visualization.cpp:11:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kshow_sphere[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[8.001s]    11 |                                                 Eigen::Vector4d color, int id, [01;35m[Kbool show_sphere[m[K /* = true */)
+[8.001s]       |                                                                                [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[8.008s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils/src/planning_visualization.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::PlanningVisualization::displayMultiInitPathList(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >, double)[m[K’:
+[8.008s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils/src/planning_visualization.cpp:177:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[8.008s]   177 |     for (int id = 0; [01;35m[Kid < init_trajs.size()[m[K; id++)
+[8.008s]       |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~~~[m[K
+[23.433s] [100%] [32m[1mLinking CXX shared library libtraj_utils_lib.so[0m
+[24.183s] [100%] Built target traj_utils_lib
+[24.195s] Invoked command in '/home/quangsang/ego_ws/build/traj_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/traj_utils -- -j20 -l20
+[24.197s] Invoking command in '/home/quangsang/ego_ws/build/traj_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/traj_utils
+[24.205s] -- Install configuration: "Release"
+[24.205s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/ament_index/resource_index/rosidl_interfaces/traj_utils
+[24.205s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils
+[24.205s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg
+[24.205s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_generator_c__visibility_control.h
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/data_disp.h
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__functions.c
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__functions.c
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__struct.h
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__functions.h
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__type_support.h
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__type_support.h
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__type_support.h
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__struct.h
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__functions.c
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__functions.h
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__functions.h
+[24.206s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__struct.h
+[24.207s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/multi_bsplines.h
+[24.207s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/bspline.h
+[24.207s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/environment/library_path.sh
+[24.207s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/environment/library_path.dsv
+[24.207s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_generator_c.so
+[24.207s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_generator_c.so" to ""
+[24.207s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils
+[24.207s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg
+[24.207s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.207s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail
+[24.207s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_fastrtps_c.h
+[24.207s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_fastrtps_c.h
+[24.208s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_fastrtps_c.h
+[24.208s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_fastrtps_c.so
+[24.208s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_fastrtps_c.so" to ""
+[24.209s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils
+[24.209s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg
+[24.209s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/data_disp.hpp
+[24.209s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/bspline.hpp
+[24.209s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail
+[24.209s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__type_support.hpp
+[24.209s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__builder.hpp
+[24.209s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__traits.hpp
+[24.209s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__type_support.hpp
+[24.209s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__builder.hpp
+[24.209s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__builder.hpp
+[24.209s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__struct.hpp
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__struct.hpp
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__struct.hpp
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__traits.hpp
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__type_support.hpp
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__traits.hpp
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_generator_cpp__visibility_control.hpp
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/multi_bsplines.hpp
+[24.210s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils
+[24.210s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg
+[24.210s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_fastrtps_cpp.hpp
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_fastrtps_cpp.hpp
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/dds_fastrtps
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_fastrtps_cpp.hpp
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.210s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_fastrtps_cpp.so
+[24.210s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.210s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils
+[24.211s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg
+[24.211s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail
+[24.211s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__type_support.c
+[24.211s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_introspection_c.h
+[24.211s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_introspection_c.h
+[24.211s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__type_support.c
+[24.211s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__type_support.c
+[24.211s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_introspection_c.h
+[24.211s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.211s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_introspection_c.so
+[24.211s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_introspection_c.so" to ""
+[24.211s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_c.so
+[24.212s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_c.so" to ""
+[24.212s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils
+[24.212s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg
+[24.212s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail
+[24.212s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__type_support.cpp
+[24.212s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__type_support.cpp
+[24.212s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/data_disp__rosidl_typesupport_introspection_cpp.hpp
+[24.212s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/bspline__rosidl_typesupport_introspection_cpp.hpp
+[24.212s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__type_support.cpp
+[24.212s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/msg/detail/multi_bsplines__rosidl_typesupport_introspection_cpp.hpp
+[24.212s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_introspection_cpp.so
+[24.213s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_introspection_cpp.so" to ""
+[24.213s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_cpp.so
+[24.213s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_typesupport_cpp.so" to ""
+[24.213s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/environment/pythonpath.sh
+[24.213s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/environment/pythonpath.dsv
+[24.213s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils-0.0.0-py3.10.egg-info/top_level.txt
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp.py
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline.py
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/__init__.py
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines_s.c
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp_s.c
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines.py
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline_s.c
+[24.214s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/libtraj_utils__rosidl_generator_py.so
+[24.215s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_introspection_c.c
+[24.215s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_c.c
+[24.215s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/_traj_utils_s.ep.rosidl_typesupport_fastrtps_c.c
+[24.215s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/__init__.py
+[24.215s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.215s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.257s] Listing '/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils'...
+[24.257s] Compiling '/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/__init__.py'...
+[24.257s] Listing '/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg'...
+[24.257s] Compiling '/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/__init__.py'...
+[24.257s] Compiling '/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_bspline.py'...
+[24.257s] Compiling '/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_data_disp.py'...
+[24.257s] Compiling '/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/msg/_multi_bsplines.py'...
+[24.262s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[24.263s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.263s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[24.263s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.263s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[24.263s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages/traj_utils/traj_utils_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[24.263s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_generator_py.so
+[24.264s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils__rosidl_generator_py.so" to ""
+[24.264s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/msg/Bspline.idl
+[24.264s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/msg/DataDisp.idl
+[24.264s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/msg/MultiBsplines.idl
+[24.264s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/msg/Bspline.msg
+[24.264s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/msg/DataDisp.msg
+[24.264s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/msg/MultiBsplines.msg
+[24.264s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils_lib.so
+[24.294s] -- Set runtime path of "/home/quangsang/ego_ws/install/traj_utils/lib/libtraj_utils_lib.so" to ""
+[24.294s] -- Up-to-date: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils
+[24.294s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/planning_visualization.h
+[24.294s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/polynomial_traj.h
+[24.294s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/include/traj_utils/traj_utils/plan_container.hpp
+[24.294s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/ament_index/resource_index/package_run_dependencies/traj_utils
+[24.294s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/ament_index/resource_index/parent_prefix_path/traj_utils
+[24.294s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/environment/ament_prefix_path.sh
+[24.294s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/environment/ament_prefix_path.dsv
+[24.294s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/environment/path.sh
+[24.294s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/environment/path.dsv
+[24.294s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/local_setup.bash
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/local_setup.sh
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/local_setup.zsh
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/local_setup.dsv
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/package.dsv
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/ament_index/resource_index/packages/traj_utils
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cExport.cmake
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cExport-release.cmake
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cExport.cmake
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cExport-release.cmake
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_cppExport.cmake
+[24.295s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cppExport.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cExport.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cExport-release.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cExport.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cExport-release.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cppExport.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_introspection_cppExport-release.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cppExport.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/traj_utils__rosidl_typesupport_cppExport-release.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_pyExport.cmake
+[24.296s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/export_traj_utils__rosidl_generator_pyExport-release.cmake
+[24.297s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/rosidl_cmake-extras.cmake
+[24.297s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.297s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.297s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[24.297s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/ament_cmake_export_targets-extras.cmake
+[24.297s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.297s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.297s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/traj_utilsConfig.cmake
+[24.297s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/cmake/traj_utilsConfig-version.cmake
+[24.297s] -- Installing: /home/quangsang/ego_ws/install/traj_utils/share/traj_utils/package.xml
+[24.300s] Invoked command in '/home/quangsang/ego_ws/build/traj_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/traj_utils

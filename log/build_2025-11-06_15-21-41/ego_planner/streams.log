@@ -1,0 +1,463 @@
+[0.020s] Invoking command in '/home/quangsang/ego_ws/build/ego_planner': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/quangsang/ego_ws/build/ego_planner -- -j20 -l20
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target ego_planner_node[0m
+[0.064s] [ 16%] [32m[1mLinking CXX executable traj_server[0m
+[0.086s] [ 33%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/planner_manager.cpp.o[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/ego_planner_node.cpp.o[0m
+[0.087s] [ 66%] [32mBuilding CXX object CMakeFiles/ego_planner_node.dir/src/ego_replan_fsm.cpp.o[0m
+[0.472s] [ 83%] Built target traj_server
+[3.222s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.222s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.222s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.222s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.222s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:209:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.222s]   209 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[3.222s]       |                                                                               [01;35m[K^[m[K
+[3.222s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[3.222s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[3.222s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[3.222s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.222s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.223s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.223s]   173 |     [01;36m[KConstPtr[m[K;
+[3.223s]       |     [01;36m[K^~~~~~~~[m[K
+[3.223s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.223s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:209:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.223s]   209 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[3.223s]       |                                                                               [01;35m[K^[m[K
+[3.223s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:7[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.223s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.223s]   115 |     [01;36m[KConstPtr[m[K;
+[3.223s]       |     [01;36m[K^~~~~~~~[m[K
+[3.223s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.223s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.224s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.224s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.224s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:210:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.224s]   210 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[3.224s]       |                                                                       [01;35m[K^[m[K
+[3.224s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[3.224s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:10[m[K,
+[3.224s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.224s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.224s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.224s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.224s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.224s]   146 |     [01;36m[KConstPtr[m[K;
+[3.224s]       |     [01;36m[K^~~~~~~~[m[K
+[3.224s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.224s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.225s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.225s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.225s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:211:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.225s]   211 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[3.225s]       |                                                                                                                     [01;35m[K^[m[K
+[3.225s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[3.225s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[3.225s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[3.225s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.225s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.225s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.225s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.225s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.225s]   173 |     [01;36m[KConstPtr[m[K;
+[3.225s]       |     [01;36m[K^~~~~~~~[m[K
+[3.226s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.226s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.226s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.226s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.226s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:211:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.226s]   211 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[3.226s]       |                                                                                                                     [01;35m[K^[m[K
+[3.226s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[3.226s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:10[m[K,
+[3.226s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.226s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.226s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.226s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.226s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.226s]   146 |     [01;36m[KConstPtr[m[K;
+[3.227s]       |     [01;36m[K^~~~~~~~[m[K
+[3.227s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.227s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.227s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.227s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.227s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:212:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.227s]   212 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K;
+[3.227s]       |                                                                        [01;35m[K^[m[K
+[3.227s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[3.227s]                  from [01m[K/home/quangsang/ego_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+[3.227s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:18[m[K,
+[3.227s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.227s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.227s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.227s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.227s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:194:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.228s]   194 |     [01;36m[KConstPtr[m[K;
+[3.228s]       |     [01;36m[K^~~~~~~~[m[K
+[3.238s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.238s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.238s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.238s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.239s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:209:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.239s]   209 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[3.239s]       |                                                                               [01;35m[K^[m[K
+[3.239s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[3.239s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[3.239s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[3.239s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.239s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.239s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.239s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.239s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.239s]   173 |     [01;36m[KConstPtr[m[K;
+[3.239s]       |     [01;36m[K^~~~~~~~[m[K
+[3.239s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.240s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.240s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.240s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.240s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:209:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.240s]   209 |                          const geometry_msgs::msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[3.240s]       |                                                                               [01;35m[K^[m[K
+[3.240s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:22[m[K,
+[3.240s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[3.240s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[3.240s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.240s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.240s]   115 |     [01;36m[KConstPtr[m[K;
+[3.240s]       |     [01;36m[K^~~~~~~~[m[K
+[3.240s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.240s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.240s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.240s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.240s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:210:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.240s]   210 |   void extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[3.240s]       |                                                                       [01;35m[K^[m[K
+[3.240s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[3.240s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.241s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.241s]   146 |     [01;36m[KConstPtr[m[K;
+[3.241s]       |     [01;36m[K^~~~~~~~[m[K
+[3.241s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.241s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:211:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.241s]   211 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[3.241s]       |                                                                                                                     [01;35m[K^[m[K
+[3.241s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[3.241s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.241s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.241s]   173 |     [01;36m[KConstPtr[m[K;
+[3.241s]       |     [01;36m[K^~~~~~~~[m[K
+[3.241s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.241s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:211:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.241s]   211 |   void depthOdomCallback(const sensor_msgs::msg::Image::ConstPtr &img, const nav_msgs::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[3.241s]       |                                                                                                                     [01;35m[K^[m[K
+[3.241s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.241s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.241s]   146 |     [01;36m[KConstPtr[m[K;
+[3.241s]       |     [01;36m[K^~~~~~~~[m[K
+[3.241s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.241s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.241s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:212:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.242s]   212 |   void cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K;
+[3.242s]       |                                                                        [01;35m[K^[m[K
+[3.242s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[3.242s]                  from [01m[K/home/quangsang/ego_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+[3.242s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:18[m[K,
+[3.242s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.242s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.242s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.242s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.242s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:194:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.242s]   194 |     [01;36m[KConstPtr[m[K;
+[3.242s]       |     [01;36m[K^~~~~~~~[m[K
+[3.262s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.262s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.262s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.262s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.262s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:209:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.262s]   209 | msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[3.262s]       |                                 [01;35m[K^[m[K
+[3.262s] 
+[3.262s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[3.262s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[3.262s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[3.262s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.262s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.262s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.262s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.262s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.262s]   173 |     [01;36m[KConstPtr[m[K;
+[3.262s]       |     [01;36m[K^~~~~~~~[m[K
+[3.262s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.262s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.262s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.263s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:209:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.263s]   209 | msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K;
+[3.263s]       |                                 [01;35m[K^[m[K
+[3.263s] 
+[3.263s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:22[m[K,
+[3.263s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.263s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.263s]   115 |     [01;36m[KConstPtr[m[K;
+[3.263s]       |     [01;36m[K^~~~~~~~[m[K
+[3.263s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.263s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:210:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.263s]   210 | s::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[3.263s]       |                                 [01;35m[K^[m[K
+[3.263s] 
+[3.263s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.263s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.263s]   146 |     [01;36m[KConstPtr[m[K;
+[3.263s]       |     [01;36m[K^~~~~~~~[m[K
+[3.263s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.263s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:211:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.263s]   211 | s::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[3.263s]       |                                 [01;35m[K^[m[K
+[3.263s] 
+[3.263s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[3.263s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:6[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.263s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.264s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.264s]   173 |     [01;36m[KConstPtr[m[K;
+[3.264s]       |     [01;36m[K^~~~~~~~[m[K
+[3.264s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.264s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:211:117:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.264s]   211 | s::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K;
+[3.264s]       |                                 [01;35m[K^[m[K
+[3.264s] 
+[3.264s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:8[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.264s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.264s]   146 |     [01;36m[KConstPtr[m[K;
+[3.264s]       |     [01;36m[K^~~~~~~~[m[K
+[3.264s] In file included from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.264s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:212:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.264s]   212 | :msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K;
+[3.264s]       |                                 [01;35m[K^[m[K
+[3.264s] 
+[3.264s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:18[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.264s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.264s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:194:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.264s]   194 |     [01;36m[KConstPtr[m[K;
+[3.264s]       |     [01;36m[K^~~~~~~~[m[K
+[3.375s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.375s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.375s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.376s] [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:99:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[3.376s]    99 | }[01;35m[K;[m[K
+[3.376s]       |  [01;35m[K^[m[K
+[3.393s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.393s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.393s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.393s] [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:99:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[3.393s]    99 | }[01;35m[K;[m[K
+[3.393s]       |  [01;35m[K^[m[K
+[3.418s] [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:112:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[3.418s]   112 | }[01;35m[K;[m[K
+[3.418s]       |  [01;35m[K^[m[K
+[3.429s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.429s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.430s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.430s] [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:99:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[3.430s]    99 | }[01;35m[K;[m[K
+[3.430s]       |  [01;35m[K^[m[K
+[3.436s] [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:112:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[3.436s]   112 | }[01;35m[K;[m[K
+[3.436s]       |  [01;35m[K^[m[K
+[3.473s] [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:112:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[3.473s]   112 | }[01;35m[K;[m[K
+[3.473s]       |  [01;35m[K^[m[K
+[3.530s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[3.530s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.530s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.530s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/obj_predictor.h:126:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.530s]   126 | :msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K;
+[3.530s]       |                                 [01;35m[K^[m[K
+[3.530s] 
+[3.530s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:22[m[K,
+[3.530s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[3.531s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[3.531s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.531s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.531s]   115 |     [01;36m[KConstPtr[m[K;
+[3.531s]       |     [01;36m[K^~~~~~~~[m[K
+[3.587s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[3.587s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.587s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.587s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/obj_predictor.h:163:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.587s]   163 | msgs::msg::Marker::ConstPtr &msg[01;35m[K)[m[K;
+[3.587s]       |                                 [01;35m[K^[m[K
+[3.587s] 
+[3.587s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+[3.587s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:2[m[K:
+[3.587s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:364:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.587s]   364 |     [01;36m[KConstPtr[m[K;
+[3.587s]       |     [01;36m[K^~~~~~~~[m[K
+[3.590s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:10[m[K,
+[3.590s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.590s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_planner_node.cpp:5[m[K:
+[3.590s] [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/lbfgs.hpp:[m[K In function ‘[01m[Kint lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)[m[K’:
+[3.590s] [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/lbfgs.hpp:723:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.591s]   723 |                   [01;35m[Kconst double *gp[m[K,
+[3.591s]       |                   [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[3.591s] 
+[3.776s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[3.776s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.776s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.776s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/obj_predictor.h:126:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.776s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K;
+[3.776s]       |                                                                           [01;35m[K^[m[K
+[3.776s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[3.776s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:7[m[K,
+[3.776s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.776s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.776s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.777s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.777s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.777s]   115 |     [01;36m[KConstPtr[m[K;
+[3.777s]       |     [01;36m[K^~~~~~~~[m[K
+[3.797s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[3.797s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.797s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.797s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/obj_predictor.h:126:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.797s]   126 |     void poseCallback(const geometry_msgs::msg::PoseStamped::ConstPtr &msg[01;35m[K)[m[K;
+[3.797s]       |                                                                           [01;35m[K^[m[K
+[3.797s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:22[m[K,
+[3.798s]                  from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/path.hpp:7[m[K,
+[3.798s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:7[m[K,
+[3.798s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.798s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.798s]   115 |     [01;36m[KConstPtr[m[K;
+[3.798s]       |     [01;36m[K^~~~~~~~[m[K
+[3.830s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[3.830s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.831s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.831s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/obj_predictor.h:163:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.831s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg[01;35m[K)[m[K;
+[3.831s]       |                                                                             [01;35m[K^[m[K
+[3.831s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+[3.831s]                  from [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h:14[m[K,
+[3.831s]                  from [01m[K/home/quangsang/ego_ws/install/path_searching/include/path_searching/dyn_a_star.h:7[m[K,
+[3.831s]                  from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:5[m[K,
+[3.831s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.831s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.831s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:364:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.831s]   364 |     [01;36m[KConstPtr[m[K;
+[3.831s]       |     [01;36m[K^~~~~~~~[m[K
+[3.833s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:10[m[K,
+[3.833s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/planner_manager.h:6[m[K,
+[3.834s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/planner_manager.cpp:2[m[K:
+[3.834s] [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/lbfgs.hpp:[m[K In function ‘[01m[Kint lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)[m[K’:
+[3.834s] [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/lbfgs.hpp:723:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.834s]   723 |                                        [01;35m[Kconst double *gp[m[K,
+[3.834s]       |                                        [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[3.853s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:8[m[K,
+[3.853s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.853s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.853s] [01m[K/home/quangsang/ego_ws/install/plan_env/include/plan_env/obj_predictor.h:163:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvisualization_msgs::msg::Marker_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.853s]   163 |     void markerCallback(const visualization_msgs::msg::Marker::ConstPtr &msg[01;35m[K)[m[K;
+[3.853s]       |                                                                             [01;35m[K^[m[K
+[3.853s] In file included from [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:7[m[K,
+[3.853s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:13[m[K,
+[3.853s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.853s] [01m[K/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:364:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.853s]   364 |     [01;36m[KConstPtr[m[K;
+[3.853s]       |     [01;36m[K^~~~~~~~[m[K
+[3.856s] In file included from [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/bspline_optimizer.h:10[m[K,
+[3.856s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/include/ego_planner/ego_replan_fsm.h:15[m[K,
+[3.856s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:2[m[K:
+[3.856s] [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/lbfgs.hpp:[m[K In function ‘[01m[Kint lbfgs::line_search_morethuente(int, double*, double*, double*, double*, double*, const double*, const double*, const double*, const double*, lbfgs::callback_data_t*, const lbfgs::lbfgs_parameter_t*)[m[K’:
+[3.856s] [01m[K/home/quangsang/ego_ws/install/bspline_opt/include/bspline_opt/lbfgs.hpp:723:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.856s]   723 |                                        [01;35m[Kconst double *gp[m[K,
+[3.856s]       |                                        [01;35m[K~~~~~~~~~~~~~~^~[m[K
+[4.032s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid ego_planner::EGOReplanFSM::triggerCallback(const std::shared_ptr<const geometry_msgs::msg::PoseStamped_<std::allocator<void> > >&)[m[K’:
+[4.032s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_manage/src/ego_replan_fsm.cpp:229:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[4.032s]   229 |   void EGOReplanFSM::triggerCallback([01;35m[Kconst std::shared_ptr<const geometry_msgs::msg::PoseStamped> &msg[m[K)
+[4.032s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[26.398s] [100%] [32m[1mLinking CXX executable ego_planner_node[0m
+[27.382s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.413
+[27.390s] [100%] Built target ego_planner_node
+[27.397s] Invoked command in '/home/quangsang/ego_ws/build/ego_planner' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/quangsang/ego_ws/build/ego_planner -- -j20 -l20
+[27.398s] Invoking command in '/home/quangsang/ego_ws/build/ego_planner': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/quangsang/ego_ws/build/ego_planner
+[27.405s] -- Install configuration: "Release"
+[27.405s] -- Installing: /home/quangsang/ego_ws/install/ego_planner/lib/ego_planner/ego_planner_node
+[27.461s] -- Set runtime path of "/home/quangsang/ego_ws/install/ego_planner/lib/ego_planner/ego_planner_node" to ""
+[27.461s] -- Installing: /home/quangsang/ego_ws/install/ego_planner/lib/ego_planner/traj_server
+[27.479s] -- Set runtime path of "/home/quangsang/ego_ws/install/ego_planner/lib/ego_planner/traj_server" to ""
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/launch
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/launch/swarm_large.launch.py
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/launch/rviz.launch.py
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/launch/simulator.launch.py
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/launch/single_run_in_sim.launch.py
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/launch/advanced_param.launch.py
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/launch/default.rviz
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/launch/run_in_sim.launch.py
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/launch/swarm.launch.py
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ament_index/resource_index/package_run_dependencies/ego_planner
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ament_index/resource_index/parent_prefix_path/ego_planner
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/environment/ament_prefix_path.sh
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/environment/ament_prefix_path.dsv
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/environment/path.sh
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/environment/path.dsv
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/local_setup.bash
+[27.479s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/local_setup.sh
+[27.480s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/local_setup.zsh
+[27.480s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/local_setup.dsv
+[27.480s] -- Installing: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/package.dsv
+[27.480s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ament_index/resource_index/packages/ego_planner
+[27.480s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig.cmake
+[27.480s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/cmake/ego_plannerConfig-version.cmake
+[27.480s] -- Up-to-date: /home/quangsang/ego_ws/install/ego_planner/share/ego_planner/package.xml
+[27.481s] Invoked command in '/home/quangsang/ego_ws/build/ego_planner' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/quangsang/ego_ws/build/ego_planner

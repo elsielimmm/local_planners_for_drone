@@ -1,0 +1,199 @@
+---
+alwaysApply: true
+---
+
+# EGO-Swarm Instructions
+
+## Project Context
+- **Project**: Customized ego-swarm with Gazebo simulation
+- **Input**: Sensor data from Gazebo (point clouds, depth images, odometry)
+- **Architecture**: ROS2-based path planning system for drone swarms
+- **Main Components**: Planner, Grid Map, BSpline Optimizer, Offboard Control
+
+## Key Directories
+
+### Core Planner
+- `src/ego-planner-swarm/src/planner/plan_manage/` - Main FSM and planner node
+  - `ego_replan_fsm.cpp` - State machine for replanning logic
+  - `planner_manager.cpp` - Planning algorithm implementation
+  - `launch/` - Launch files for different scenarios
+    - `advanced_param.launch.py` - Advanced parameter configuration
+    - `simulator.launch.py` - Full simulator integration
+    - `single_run_in_sim.launch.py` - Single drone simulation
+
+### Mapping & Environment
+- `src/ego-planner-swarm/src/planner/plan_env/` - Occupancy grid mapping
+  - `grid_map.cpp` - 3D occupancy grid, raycasting, depth fusion
+  - Subscribes to: point clouds, depth images, odometry
+  - Publishes: occupancy inflate map
+
+### Path Planning
+- `src/ego-planner-swarm/src/planner/path_searching/` - A* path search
+- `src/ego-planner-swarm/src/planner/bspline_opt/` - B-spline trajectory optimization
+
+### Control & Interface
+- `src/ego-planner-swarm/src/offboard_control/` - PX4 offboard control
+  - `px4_offboard_path.cpp` - Path execution interface
+  - `mavros_bridge.cpp` - MAVROS communication bridge
+
+### Utilities
+- `src/ego-planner-swarm/scripts/` - Helper scripts
+  - `ego_gz_bridge.py` - Gazebo-ROS2 bridge for sensor data
+  - `publish_static_map.py` - Static map publisher from .ply files
+
+## Topic Architecture
+
+### Input Topics (from Gazebo via bridge)
+```python
+# Odometry (required)
+'/model/x500_mono_cam_0/odom' [nav_msgs/Odometry]
+  → Remapped to: 'odom_world'
+  → Used by: EGO Planner FSM, Grid Map
+
+# Point Clouds (required)
+'/depth_camera/points' [sensor_msgs/PointCloud2]
+  → Remapped to: 'grid_map/cloud'
+  → Used by: Grid Map for occupancy mapping
+
+# Depth Images (optional)
+'/drone_{id}_depth_image' [sensor_msgs/Image]
+  → Remapped to: 'grid_map/depth'
+  → Used by: Grid Map for raycasting
+```
+
+### Output Topics
+```python
+# Trajectory commands
+'/drone_{id}_planning/pos_cmd' [quadrotor_msgs/PositionCommand]
+  → Used by: Offboard control, Trajectory server
+
+# B-spline trajectories
+'/drone_{id}_planning/bspline' [traj_utils/Bspline]
+  → Optimized trajectory output
+
+# Swarm coordination
+'/drone_{id}_planning/swarm_trajs' [traj_utils/MultiBsplines]
+  → Multi-agent trajectory coordination
+```
+
+### Goal Input
+```python
+'/goal_pose' [geometry_msgs/PoseStamped]
+  → User-specified target
+  → Input: Manual target (flight_type=1)
+  → Stored in: fsm.cpp, line 117-124
+```
+
+## Critical Integration Points
+
+### 1. Gazebo Bridge Setup
+**File**: `scripts/ego_gz_bridge.py`
+- **Purpose**: Bridge Gazebo topics to ROS2
+- **Requires**: `ros_gz_bridge` package
+- **Key Topics Bridged**:
+  - `/model/x500_mono_cam_0/odometry` → `/model/x500_mono_cam_0/odom`
+  - `/depth_camera/points` → `/depth_camera/points`
+
+### 2. Launch File Configuration
+**File**: `launch/advanced_param.launch.py`
+- **Key Remappings** (lines 95-112):
+  - `odom_world` → `/model/x500_mono_cam_0/odom`
+  - `grid_map/cloud` → Point cloud topic
+  - `grid_map/pose` → Camera pose topic
+- **Critical Parameters**:
+  - `map_size_x/y/z` - Workspace bounds
+  - `grid_map/resolution` - Voxel resolution (default 0.1m)
+  - `fsm/flight_type` - 1=manual target, 2=preset waypoints
+
+### 3. Grid Map Parameters
+**Location**: `grid_map.cpp` initialization
+- **Camera intrinsics**: fx, fy, cx, cy
+- **Depth filtering**: use_depth_filter, depth_filter_tolerance
+- **Raycasting**: p_hit, p_miss, p_occ for occupancy mapping
+- **Update range**: local_update_range_x/y/z
+
+## Answering Guidelines
+
+### Always Check Files First
+1. **Verify file existence** before mentioning it
+2. **Read relevant code** sections when discussing implementation
+3. **Reference specific lines** using code citations
+4. **Confirm topic names** match actual ROS2 interfaces
+
+### Focus Areas
+- **Topic integration**: How sensors connect to planner
+- **Parameter tuning**: Grid map, planner, optimizer params
+- **Launch configuration**: Remappings, parameter overrides
+- **Gazebo setup**: Bridge requirements, sensor topics
+
+### One Solution Per Query
+- Provide complete, focused answers
+- Create single comprehensive README/docs per request
+- Avoid creating multiple documentation files
+- Check what documentation already exists
+
+### Code Citation Rules
+When showing existing code:
+```startLine:endLine:filepath
+// Code content
+```
+
+When proposing new code:
+```language
+// Code content
+```
+
+### Common Tasks
+
+#### Running Planner with Gazebo
+1. Start Gazebo simulation
+2. Run bridge: `python3 scripts/ego_gz_bridge.py`
+3. Publish map: `python3 scripts/publish_static_map.py`
+4. Launch planner: `ros2 launch ego_planner advanced_param.launch.py`
+5. Set goal: `ros2 topic pub /goal_pose geometry_msgs/PoseStamped "{pose: {...}}}"`
+
+#### Adjusting Sensor Parameters
+Edit `advanced_param.launch.py`:
+- Camera intrinsics: `cx`, `cy`, `fx`, `fy` parameters
+- Point cloud topic: `cloud_topic` launch argument
+- Odom topic: `odometry_topic` launch argument
+
+#### Modifying Planning Behavior
+Edit `advanced_param.launch.py`:
+- Map size: `map_size_x/y/z` parameters
+- Planning horizon: `planning_horizon` parameter
+- Velocity limits: `max_vel`, `max_acc` parameters
+- Collision clearance: `optimization/swarm_clearance`
+
+## Implementation Notes
+
+### Grid Map Subscription Flow
+1. Subscribes to `grid_map/cloud` (PointCloud2)
+2. Fuses with `grid_map/depth` (optional)
+3. Raycasts to update occupancy grid
+4. Publishes `grid_map/occupancy_inflate` for planning
+
+### FSM States
+```cpp
+INIT → WAIT_TARGET → GEN_NEW_TRAJ → REPLAN_TRAJ → EXEC_TRAJ
+```
+
+### Key Callbacks
+- `odometryCallback()` - Updates drone pose
+- `waypointCallback()` - Receives goal from `/goal_pose`
+- `execFSMCallback()` - Main replanning logic
+- `checkCollisionCallback()` - Safety checking
+
+## Documentation Structure
+- `docs/GAZEBO_SETUP_GUIDE.md` - Integration setup
+- `docs/HOW_TO_SET_GOAL.md` - Goal publishing guide
+- `docs/README.md` - Main documentation
+- `src/ego-planner-swarm/Readme.md` - Usage instructions
+
+## Best Practices
+1. **Always** check existing files before creating new ones
+2. **Verify** topic names match ROS2 topic list
+3. **Confirm** parameter types (float, bool, string)
+4. **Reference** specific code sections with line numbers
+5. **Test** launch commands before suggesting them
+6. **One comprehensive answer** instead of multiple docs

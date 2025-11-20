@@ -1,0 +1,576 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'plan_env', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['plan_env'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b160909a2c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b160918b850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b160918b850>>, mixin_verb=('build',))
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.182s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/quangsang/ego_ws'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(docs/Gazebo) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/maps) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/scripts) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/offboard_control) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/offboard_control) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/offboard_control) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/offboard_control) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/offboard_control) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/offboard_control) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/offboard_control) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/offboard_control) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/offboard_control) by extension 'ros'
+[0.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/offboard_control' with type 'ros.ament_cmake' and name 'offboard_control'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/bspline_opt) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/bspline_opt) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/bspline_opt) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/bspline_opt) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/bspline_opt) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/bspline_opt) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/bspline_opt) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/bspline_opt) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/bspline_opt) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/planner/bspline_opt' with type 'ros.ament_cmake' and name 'bspline_opt'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/drone_detect) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/drone_detect) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/drone_detect) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/drone_detect) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/drone_detect) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/drone_detect) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/drone_detect) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/drone_detect) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/drone_detect) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/planner/drone_detect' with type 'ros.ament_cmake' and name 'drone_detect'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/path_searching) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/path_searching) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/path_searching) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/path_searching) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/path_searching) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/path_searching) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/path_searching) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/path_searching) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/path_searching) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/planner/path_searching' with type 'ros.ament_cmake' and name 'path_searching'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_env) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_env) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_env) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_env) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_env) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_env) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_env) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_env) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_env) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/planner/plan_env' with type 'ros.ament_cmake' and name 'plan_env'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_manage) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_manage) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_manage) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_manage) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_manage) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_manage) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_manage) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_manage) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/plan_manage) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/planner/plan_manage' with type 'ros.ament_cmake' and name 'ego_planner'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge' with type 'ros.ament_cmake' and name 'rosmsg_tcp_bridge'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/traj_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/traj_utils) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/traj_utils) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/traj_utils) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/traj_utils) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/traj_utils) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/traj_utils) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/traj_utils) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/planner/traj_utils) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/planner/traj_utils' with type 'ros.ament_cmake' and name 'traj_utils'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils' with type 'ros.ament_cmake' and name 'cmake_utils'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server' with type 'ros.ament_cmake' and name 'multi_map_server'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization' with type 'ros.ament_cmake' and name 'odom_visualization'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils' with type 'ros.ament_cmake' and name 'pose_utils'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs' with type 'ros.ament_cmake' and name 'quadrotor_msgs'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils' with type 'ros.ament_cmake' and name 'uav_utils'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator' with type 'ros.ament_cmake' and name 'waypoint_generator'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/fake_drone) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/fake_drone) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/fake_drone) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/fake_drone) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/fake_drone) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/fake_drone) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/fake_drone) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/fake_drone) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/fake_drone) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/fake_drone' with type 'ros.ament_cmake' and name 'poscmd_2_odom'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/local_sensing) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/local_sensing) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/local_sensing) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/local_sensing) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/local_sensing) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/local_sensing) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/local_sensing) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/local_sensing) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/local_sensing) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/local_sensing' with type 'ros.ament_cmake' and name 'local_sensing'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/map_generator) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/map_generator) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/map_generator) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/map_generator) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/map_generator) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/map_generator) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/map_generator) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/map_generator) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/map_generator) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/map_generator' with type 'ros.ament_cmake' and name 'map_generator'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/mockamap) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/mockamap) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/mockamap) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/mockamap) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/mockamap) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/mockamap) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/mockamap) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/mockamap) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/mockamap) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/mockamap' with type 'ros.ament_cmake' and name 'mockamap'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_control) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_control) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_control) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_control) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_control) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_control) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_control) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_control) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_control) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/so3_control' with type 'ros.ament_cmake' and name 'so3_control'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator' with type 'ros.ament_cmake' and name 'so3_quadrotor_simulator'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl_msgs) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pcl_msgs' with type 'ros.ament_cmake' and name 'pcl_msgs'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/pcl_conversions' with type 'ros.ament_cmake' and name 'pcl_conversions'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/pcl_ros' with type 'ros.ament_cmake' and name 'pcl_ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/perception_pcl' with type 'ros.ament_cmake' and name 'perception_pcl'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.230s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cmake_utils' in 'src/ego-planner-swarm/src/uav_simulator/Utils/cmake_utils'
+[0.230s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'drone_detect' in 'src/ego-planner-swarm/src/planner/drone_detect'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pcl_msgs' in 'src/pcl_msgs'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pose_utils' in 'src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'px4_msgs' in 'src/px4_msgs'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'quadrotor_msgs' in 'src/ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'traj_utils' in 'src/ego-planner-swarm/src/planner/traj_utils'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'waypoint_generator' in 'src/ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'multi_map_server' in 'src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'odom_visualization' in 'src/ego-planner-swarm/src/uav_simulator/Utils/odom_visualization'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'offboard_control' in 'src/ego-planner-swarm/src/offboard_control'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pcl_conversions' in 'src/perception_pcl/pcl_conversions'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'poscmd_2_odom' in 'src/ego-planner-swarm/src/uav_simulator/fake_drone'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rosmsg_tcp_bridge' in 'src/ego-planner-swarm/src/planner/rosmsg_tcp_bridge'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'so3_control' in 'src/ego-planner-swarm/src/uav_simulator/so3_control'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'uav_utils' in 'src/ego-planner-swarm/src/uav_simulator/Utils/uav_utils'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'map_generator' in 'src/ego-planner-swarm/src/uav_simulator/map_generator'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pcl_ros' in 'src/perception_pcl/pcl_ros'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'so3_quadrotor_simulator' in 'src/ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'local_sensing' in 'src/ego-planner-swarm/src/uav_simulator/local_sensing'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mockamap' in 'src/ego-planner-swarm/src/uav_simulator/mockamap'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'path_searching' in 'src/ego-planner-swarm/src/planner/path_searching'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'perception_pcl' in 'src/perception_pcl/perception_pcl'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bspline_opt' in 'src/ego-planner-swarm/src/planner/bspline_opt'
+[0.231s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ego_planner' in 'src/ego-planner-swarm/src/planner/plan_manage'
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 26 installed packages in /home/quangsang/ego_ws/install
+[0.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/quangsang/ros2_ws/install
+[0.234s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.253s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'plan_env' is in: /home/quangsang/ego_ws/install/plan_env
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding plan_env
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'plan_env' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'plan_env' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'plan_env' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'plan_env' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'plan_env' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'plan_env' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'plan_env' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'plan_env' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'plan_env' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'plan_env' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/quangsang/ego_ws/build/plan_env', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/quangsang/ego_ws/install/plan_env', 'merge_install': False, 'path': '/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env', 'symlink_install': False, 'test_result_base': None}
+[0.254s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env'
+[0.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quangsang/ego_ws/build/plan_env': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/pcl_msgs/lib:/usr/local/cuda-11.8/lib64:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/plan_env
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quangsang/ego_ws/build/plan_env' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/pcl_msgs/lib:/usr/local/cuda-11.8/lib64:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/plan_env
+[1.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quangsang/ego_ws/build/plan_env': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/pcl_msgs/lib:/usr/local/cuda-11.8/lib64:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/quangsang/ego_ws/build/plan_env -- -j20 -l20
+[33.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quangsang/ego_ws/build/plan_env' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/pcl_msgs/lib:/usr/local/cuda-11.8/lib64:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/quangsang/ego_ws/build/plan_env -- -j20 -l20
+[33.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quangsang/ego_ws/build/plan_env': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/pcl_msgs/lib:/usr/local/cuda-11.8/lib64:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/quangsang/ego_ws/build/plan_env
+[33.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(plan_env)
+[33.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quangsang/ego_ws/build/plan_env' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/pcl_msgs/lib:/usr/local/cuda-11.8/lib64:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/quangsang/ego_ws/build/plan_env
+[33.763s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env' for CMake module files
+[33.764s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env' for CMake config files
+[33.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('plan_env', 'cmake_prefix_path')
+[33.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/cmake_prefix_path.ps1'
+[33.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/cmake_prefix_path.dsv'
+[33.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/cmake_prefix_path.sh'
+[33.766s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env/lib'
+[33.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('plan_env', 'ld_library_path_lib')
+[33.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/ld_library_path_lib.ps1'
+[33.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/ld_library_path_lib.dsv'
+[33.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/ld_library_path_lib.sh'
+[33.767s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env/bin'
+[33.767s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env/lib/pkgconfig/plan_env.pc'
+[33.767s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env/lib/python3.10/site-packages'
+[33.767s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env/bin'
+[33.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/quangsang/ego_ws/install/plan_env/share/plan_env/package.ps1'
+[33.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quangsang/ego_ws/install/plan_env/share/plan_env/package.dsv'
+[33.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/quangsang/ego_ws/install/plan_env/share/plan_env/package.sh'
+[33.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/quangsang/ego_ws/install/plan_env/share/plan_env/package.bash'
+[33.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/quangsang/ego_ws/install/plan_env/share/plan_env/package.zsh'
+[33.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quangsang/ego_ws/install/plan_env/share/colcon-core/packages/plan_env)
+[33.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(plan_env)
+[33.769s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env' for CMake module files
+[33.769s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env' for CMake config files
+[33.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('plan_env', 'cmake_prefix_path')
+[33.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/cmake_prefix_path.ps1'
+[33.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/cmake_prefix_path.dsv'
+[33.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/cmake_prefix_path.sh'
+[33.770s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env/lib'
+[33.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('plan_env', 'ld_library_path_lib')
+[33.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/ld_library_path_lib.ps1'
+[33.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/ld_library_path_lib.dsv'
+[33.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quangsang/ego_ws/install/plan_env/share/plan_env/hook/ld_library_path_lib.sh'
+[33.771s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env/bin'
+[33.771s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env/lib/pkgconfig/plan_env.pc'
+[33.771s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env/lib/python3.10/site-packages'
+[33.771s] Level 1:colcon.colcon_core.environment:checking '/home/quangsang/ego_ws/install/plan_env/bin'
+[33.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/quangsang/ego_ws/install/plan_env/share/plan_env/package.ps1'
+[33.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quangsang/ego_ws/install/plan_env/share/plan_env/package.dsv'
+[33.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/quangsang/ego_ws/install/plan_env/share/plan_env/package.sh'
+[33.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/quangsang/ego_ws/install/plan_env/share/plan_env/package.bash'
+[33.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/quangsang/ego_ws/install/plan_env/share/plan_env/package.zsh'
+[33.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quangsang/ego_ws/install/plan_env/share/colcon-core/packages/plan_env)
+[33.773s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.773s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.773s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[33.773s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.776s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.785s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.785s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quangsang/ego_ws/install/local_setup.ps1'
+[33.786s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/quangsang/ego_ws/install/_local_setup_util_ps1.py'
+[33.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quangsang/ego_ws/install/setup.ps1'
+[33.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quangsang/ego_ws/install/local_setup.sh'
+[33.788s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/quangsang/ego_ws/install/_local_setup_util_sh.py'
+[33.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quangsang/ego_ws/install/setup.sh'
+[33.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quangsang/ego_ws/install/local_setup.bash'
+[33.790s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quangsang/ego_ws/install/setup.bash'
+[33.791s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quangsang/ego_ws/install/local_setup.zsh'
+[33.791s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quangsang/ego_ws/install/setup.zsh'

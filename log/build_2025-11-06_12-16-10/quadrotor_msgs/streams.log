@@ -1,0 +1,401 @@
+[0.022s] Invoking command in '/home/quangsang/ego_ws/build/quadrotor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/quadrotor_msgs -- -j20 -l20
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_generator_c[0m
+[0.069s] [  0%] Built target quadrotor_msgs__cpp
+[0.076s] [  0%] Built target ament_cmake_python_copy_quadrotor_msgs
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_cpp[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.091s] [ 12%] Built target quadrotor_msgs__rosidl_generator_c
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_c[0m
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_introspection_c[0m
+[0.108s] [ 24%] Built target quadrotor_msgs__rosidl_typesupport_cpp
+[0.112s] [ 35%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_cpp
+[0.113s] [ 47%] Built target quadrotor_msgs__rosidl_typesupport_c
+[0.115s] [ 59%] Built target quadrotor_msgs__rosidl_typesupport_introspection_cpp
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target encode_msgs[0m
+[0.117s] [ 71%] Built target quadrotor_msgs__rosidl_typesupport_introspection_c
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target decode_msgs[0m
+[0.119s] [ 82%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_c
+[0.128s] [ 84%] Built target encode_msgs
+[0.129s] [ 85%] Built target decode_msgs
+[0.134s] [ 85%] Built target quadrotor_msgs
+[0.155s] [ 86%] Built target quadrotor_msgs__py
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_generator_py[0m
+[0.186s] [ 96%] Built target quadrotor_msgs__rosidl_generator_py
+[0.195s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.195s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_c__pyext[0m
+[0.196s] [35m[1mConsolidate compiler generated dependencies of target quadrotor_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.205s] [ 98%] Built target quadrotor_msgs__rosidl_typesupport_c__pyext
+[0.205s] [ 99%] Built target quadrotor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.209s] [100%] Built target quadrotor_msgs__rosidl_typesupport_introspection_c__pyext
+[0.297s] running egg_info
+[0.297s] writing quadrotor_msgs.egg-info/PKG-INFO
+[0.297s] writing dependency_links to quadrotor_msgs.egg-info/dependency_links.txt
+[0.297s] writing top-level names to quadrotor_msgs.egg-info/top_level.txt
+[0.297s] reading manifest file 'quadrotor_msgs.egg-info/SOURCES.txt'
+[0.297s] writing manifest file 'quadrotor_msgs.egg-info/SOURCES.txt'
+[0.316s] [100%] Built target ament_cmake_python_build_quadrotor_msgs_egg
+[0.341s] Invoked command in '/home/quangsang/ego_ws/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/quadrotor_msgs -- -j20 -l20
+[0.342s] Invoking command in '/home/quangsang/ego_ws/build/quadrotor_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/quadrotor_msgs
+[0.360s] -- Install configuration: ""
+[0.360s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/ament_index/resource_index/rosidl_interfaces/quadrotor_msgs
+[0.360s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[0.360s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[0.360s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/gains.h
+[0.361s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/lqr_trajectory.h
+[0.361s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.361s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/position_command.h
+[0.361s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/ppr_output_data.h
+[0.361s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/so3_command.h
+[0.361s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/polynomial_trajectory.h
+[0.361s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/corrections.h
+[0.361s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[0.361s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.h
+[0.362s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.h
+[0.362s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__functions.c
+[0.362s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__functions.c
+[0.362s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__struct.h
+[0.362s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.h
+[0.362s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__struct.h
+[0.362s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__functions.h
+[0.362s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.h
+[0.363s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__functions.h
+[0.363s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.h
+[0.363s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__functions.h
+[0.363s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__functions.c
+[0.363s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__functions.h
+[0.363s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__functions.h
+[0.363s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__functions.c
+[0.363s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.h
+[0.364s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__struct.h
+[0.364s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.h
+[0.364s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.h
+[0.364s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__functions.c
+[0.364s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__struct.h
+[0.364s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.h
+[0.364s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.h
+[0.364s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__functions.h
+[0.364s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__functions.c
+[0.365s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.h
+[0.365s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__functions.c
+[0.365s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__functions.c
+[0.366s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__functions.h
+[0.366s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__functions.h
+[0.366s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__functions.c
+[0.366s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__functions.c
+[0.366s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__functions.h
+[0.366s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__struct.h
+[0.367s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__struct.h
+[0.367s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__functions.c
+[0.367s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__functions.h
+[0.367s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.h
+[0.368s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__struct.h
+[0.368s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__functions.c
+[0.368s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__functions.c
+[0.368s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__functions.h
+[0.368s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.h
+[0.369s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__struct.h
+[0.369s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__functions.h
+[0.369s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__struct.h
+[0.369s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__struct.h
+[0.369s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__struct.h
+[0.369s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__struct.h
+[0.369s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__functions.h
+[0.370s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__struct.h
+[0.370s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/status_data.h
+[0.370s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/output_data.h
+[0.370s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/serial.h
+[0.370s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/trpy_command.h
+[0.370s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/aux_command.h
+[0.370s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/odometry.h
+[0.370s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/environment/library_path.sh
+[0.370s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/environment/library_path.dsv
+[0.371s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_generator_c.so
+[0.371s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[0.371s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[0.371s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.371s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[0.371s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_fastrtps_c.h
+[0.371s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_fastrtps_c.h
+[0.371s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_fastrtps_c.h
+[0.372s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_c.h
+[0.372s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[0.372s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_fastrtps_c.h
+[0.372s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_fastrtps_c.h
+[0.373s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_fastrtps_c.h
+[0.374s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_fastrtps_c.h
+[0.374s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_fastrtps_c.h
+[0.374s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_fastrtps_c.h
+[0.374s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_fastrtps_c.h
+[0.374s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_fastrtps_c.h
+[0.374s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_fastrtps_c.so
+[0.374s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[0.374s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[0.375s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/aux_command.hpp
+[0.375s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/trpy_command.hpp
+[0.375s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/corrections.hpp
+[0.375s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/serial.hpp
+[0.375s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/polynomial_trajectory.hpp
+[0.376s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/so3_command.hpp
+[0.376s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/gains.hpp
+[0.377s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/lqr_trajectory.hpp
+[0.377s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/ppr_output_data.hpp
+[0.377s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/position_command.hpp
+[0.378s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/output_data.hpp
+[0.378s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[0.378s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__builder.hpp
+[0.378s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__struct.hpp
+[0.378s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__builder.hpp
+[0.379s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.hpp
+[0.379s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__struct.hpp
+[0.379s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__builder.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__struct.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__builder.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__builder.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__builder.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__builder.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__traits.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__traits.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__struct.hpp
+[0.380s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__struct.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__builder.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__struct.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__traits.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__struct.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__traits.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__struct.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__traits.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__traits.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__traits.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__struct.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__builder.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__traits.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__builder.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__struct.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__struct.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__traits.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__builder.hpp
+[0.381s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__traits.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__builder.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__traits.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__traits.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__traits.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__struct.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__builder.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__struct.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/status_data.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/odometry.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_fastrtps_cpp.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/dds_fastrtps
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[0.382s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_fastrtps_cpp.hpp
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_fastrtps_cpp.hpp
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_fastrtps_cpp.hpp
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_fastrtps_cpp.hpp
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_fastrtps_cpp.hpp
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_introspection_c.h
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_c.h
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_introspection_c.h
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_introspection_c.h
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.c
+[0.383s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_introspection_c.h
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.c
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.c
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.c
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_introspection_c.h
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_introspection_c.h
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_introspection_c.h
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_introspection_c.h
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.c
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.c
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.c
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_introspection_c.h
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.c
+[0.384s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_introspection_c.h
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.c
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.c
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.c
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.c
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.c
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_introspection_c.h
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_introspection_c.so
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_c.so
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail
+[0.385s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__type_support.cpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__type_support.cpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__type_support.cpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__type_support.cpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__rosidl_typesupport_introspection_cpp.hpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__type_support.cpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/corrections__rosidl_typesupport_introspection_cpp.hpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__rosidl_typesupport_introspection_cpp.hpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__rosidl_typesupport_introspection_cpp.hpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__rosidl_typesupport_introspection_cpp.hpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/gains__type_support.cpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__rosidl_typesupport_introspection_cpp.hpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__rosidl_typesupport_introspection_cpp.hpp
+[0.386s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__type_support.cpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/trpy_command__type_support.cpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/serial__rosidl_typesupport_introspection_cpp.hpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/lqr_trajectory__type_support.cpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/aux_command__rosidl_typesupport_introspection_cpp.hpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/status_data__type_support.cpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/ppr_output_data__type_support.cpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/so3_command__rosidl_typesupport_introspection_cpp.hpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/output_data__type_support.cpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/polynomial_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/include/quadrotor_msgs/quadrotor_msgs/msg/detail/position_command__type_support.cpp
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_introspection_cpp.so
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_typesupport_cpp.so
+[0.387s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/environment/pythonpath.sh
+[0.388s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/environment/pythonpath.dsv
+[0.388s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs-0.0.0-py3.10.egg-info
+[0.388s] -- Installing: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.388s] -- Installing: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.388s] -- Installing: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.388s] -- Installing: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.388s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs
+[0.388s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.388s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.388s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg
+[0.388s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_odometry.py
+[0.388s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_so3_command_s.c
+[0.388s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_gains_s.c
+[0.388s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_so3_command.py
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_serial.py
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_output_data_s.c
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_status_data.py
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_serial_s.c
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_output_data.py
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_corrections.py
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_corrections_s.c
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_polynomial_trajectory.py
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_position_command.py
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_status_data_s.c
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_aux_command_s.c
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_trpy_command_s.c
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_ppr_output_data_s.c
+[0.389s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_ppr_output_data.py
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_position_command_s.c
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_gains.py
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_lqr_trajectory_s.c
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_lqr_trajectory.py
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/__init__.py
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_trpy_command.py
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_odometry_s.c
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_polynomial_trajectory_s.c
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg/_aux_command.py
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/libquadrotor_msgs__rosidl_generator_py.so
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/__init__.py
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_c.c
+[0.390s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.391s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/_quadrotor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.402s] Listing '/home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs'...
+[0.402s] Listing '/home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/msg'...
+[0.407s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.407s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.408s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages/quadrotor_msgs/quadrotor_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.408s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/lib/libquadrotor_msgs__rosidl_generator_py.so
+[0.408s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/AuxCommand.idl
+[0.408s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/Corrections.idl
+[0.408s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/Gains.idl
+[0.408s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/LQRTrajectory.idl
+[0.408s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/OutputData.idl
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/PositionCommand.idl
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/PPROutputData.idl
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/Serial.idl
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/SO3Command.idl
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/StatusData.idl
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/TRPYCommand.idl
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/Odometry.idl
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/PolynomialTrajectory.idl
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/AuxCommand.msg
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/Corrections.msg
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/Gains.msg
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/LQRTrajectory.msg
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/OutputData.msg
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/PositionCommand.msg
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/PPROutputData.msg
+[0.409s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/Serial.msg
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/SO3Command.msg
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/StatusData.msg
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/TRPYCommand.msg
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/Odometry.msg
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/msg/PolynomialTrajectory.msg
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/lib/libdecode_msgs.so
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/lib/libencode_msgs.so
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/ament_index/resource_index/package_run_dependencies/quadrotor_msgs
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/ament_index/resource_index/parent_prefix_path/quadrotor_msgs
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/environment/ament_prefix_path.sh
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/environment/ament_prefix_path.dsv
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/environment/path.sh
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/environment/path.dsv
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.bash
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.sh
+[0.410s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.zsh
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/local_setup.dsv
+[0.411s] -- Installing: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/package.dsv
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/ament_index/resource_index/packages/quadrotor_msgs
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_cExport.cmake
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_cppExport.cmake
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.411s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cExport.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cppExport.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_pyExport.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/export_quadrotor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake-extras.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgsConfig.cmake
+[0.412s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake/quadrotor_msgsConfig-version.cmake
+[0.413s] -- Up-to-date: /home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/package.xml
+[0.415s] Invoked command in '/home/quangsang/ego_ws/build/quadrotor_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/quadrotor_msgs

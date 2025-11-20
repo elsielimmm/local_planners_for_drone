@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7684261c360a8cf613fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "traj_utils__py",
+					"jsonFile" : "directory-traj_utils__py-Release-a52e17c8e14f8353d13f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/quangsang/ego_ws/build/traj_utils/traj_utils__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "traj_utils",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_traj_utils_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_traj_utils_egg-Release-9cff1f1f0ea683228e86.json",
+					"name" : "ament_cmake_python_build_traj_utils_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_traj_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_traj_utils-Release-48f7d1ff4c7da016f424.json",
+					"name" : "ament_cmake_python_copy_traj_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils-Release-112cfcbac2b50e1b35a8.json",
+					"name" : "traj_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__cpp-Release-3ea2fbe0b4a6a9bfbc73.json",
+					"name" : "traj_utils__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "traj_utils__py::@91edbaaf32cfc67033d7",
+					"jsonFile" : "target-traj_utils__py-Release-27350d6aeccbffd5e281.json",
+					"name" : "traj_utils__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_generator_c-Release-bd461a0daa0d8898811d.json",
+					"name" : "traj_utils__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_generator_py-Release-13577a95097b426b733a.json",
+					"name" : "traj_utils__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_typesupport_c-Release-4a32791e45492b392ef4.json",
+					"name" : "traj_utils__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_typesupport_c__pyext-Release-69effd8d8a225fb93d86.json",
+					"name" : "traj_utils__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_typesupport_cpp-Release-3527817a5a475db0ca28.json",
+					"name" : "traj_utils__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_typesupport_fastrtps_c-Release-279a2a18ddd1267fe8ad.json",
+					"name" : "traj_utils__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_typesupport_fastrtps_c__pyext-Release-bfe88479e4e0c2d1a049.json",
+					"name" : "traj_utils__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_typesupport_fastrtps_cpp-Release-6d363d079a5a4fcd84d3.json",
+					"name" : "traj_utils__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_typesupport_introspection_c-Release-5c3be75f32de1ed14976.json",
+					"name" : "traj_utils__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_typesupport_introspection_c__pyext-Release-a83e993ea7c144471041.json",
+					"name" : "traj_utils__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils__rosidl_typesupport_introspection_cpp-Release-36072033eb7524e711dc.json",
+					"name" : "traj_utils__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils_lib-Release-7cf1a6a421c4be2d151b.json",
+					"name" : "traj_utils_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traj_utils_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traj_utils_uninstall-Release-8f129a9e71712eb2f9ff.json",
+					"name" : "traj_utils_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-572bd7714c60549cdb4b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/quangsang/ego_ws/build/traj_utils",
+		"source" : "/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

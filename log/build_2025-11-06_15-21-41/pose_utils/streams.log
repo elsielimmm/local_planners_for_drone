@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/quangsang/ego_ws/build/pose_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/pose_utils -- -j20 -l20
+[0.058s] [100%] Built target pose_utils
+[0.099s] Invoked command in '/home/quangsang/ego_ws/build/pose_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/pose_utils -- -j20 -l20
+[0.101s] Invoking command in '/home/quangsang/ego_ws/build/pose_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/pose_utils
+[0.110s] -- Install configuration: ""
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/lib/libpose_utils.so
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/include/pose_utils
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/include/pose_utils/pose_utils.h
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/environment/library_path.sh
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/environment/library_path.dsv
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/ament_index/resource_index/package_run_dependencies/pose_utils
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/ament_index/resource_index/parent_prefix_path/pose_utils
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/environment/ament_prefix_path.sh
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/environment/ament_prefix_path.dsv
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/environment/path.sh
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/environment/path.dsv
+[0.110s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/local_setup.bash
+[0.111s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/local_setup.sh
+[0.111s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/local_setup.zsh
+[0.111s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/local_setup.dsv
+[0.111s] -- Installing: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/package.dsv
+[0.111s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/ament_index/resource_index/packages/pose_utils
+[0.111s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.111s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[0.111s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/cmake/pose_utilsConfig.cmake
+[0.111s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/cmake/pose_utilsConfig-version.cmake
+[0.111s] -- Up-to-date: /home/quangsang/ego_ws/install/pose_utils/share/pose_utils/package.xml
+[0.116s] Invoked command in '/home/quangsang/ego_ws/build/pose_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/pose_utils

@@ -1,0 +1,10 @@
+/home/quangsang/ego_ws/build/drone_detect/CMakeFiles/uninstall.dir
+/home/quangsang/ego_ws/build/drone_detect/CMakeFiles/drone_detect_uninstall.dir
+/home/quangsang/ego_ws/build/drone_detect/CMakeFiles/drone_detect.dir
+/home/quangsang/ego_ws/build/drone_detect/CMakeFiles/test.dir
+/home/quangsang/ego_ws/build/drone_detect/CMakeFiles/edit_cache.dir
+/home/quangsang/ego_ws/build/drone_detect/CMakeFiles/rebuild_cache.dir
+/home/quangsang/ego_ws/build/drone_detect/CMakeFiles/list_install_components.dir
+/home/quangsang/ego_ws/build/drone_detect/CMakeFiles/install.dir
+/home/quangsang/ego_ws/build/drone_detect/CMakeFiles/install/local.dir
+/home/quangsang/ego_ws/build/drone_detect/CMakeFiles/install/strip.dir

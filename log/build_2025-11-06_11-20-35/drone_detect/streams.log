@@ -1,0 +1,213 @@
+[0.017s] Invoking command in '/home/quangsang/ego_ws/build/drone_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/drone_detect
+[0.049s] -- The C compiler identification is GNU 9.5.0
+[0.092s] -- The CXX compiler identification is GNU 9.5.0
+[0.096s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.144s] -- Detecting C compile features - done
+[0.145s] -- Detecting CXX compiler ABI info
+[0.200s] -- Detecting CXX compiler ABI info - done
+[0.205s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.205s] -- Detecting CXX compile features
+[0.205s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.313s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.378s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.409s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.412s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.418s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.437s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.464s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.466s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.480s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.485s] -- Looking for pthread.h
+[0.533s] -- Looking for pthread.h - found
+[0.533s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.586s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.587s] -- Found Threads: TRUE  
+[0.622s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.641s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.651s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.658s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.672s] -- Found OpenCV: /usr/local (found version "4.13.0") 
+[0.677s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.678s] -- Found message_filters: 4.3.8 (/opt/ros/humble/share/message_filters/cmake)
+[0.681s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.742s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.742s] -- Configured cppcheck include dirs: /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include
+[0.742s] -- Configured cppcheck exclude dirs and/or files: 
+[0.742s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.742s] -- Added test 'lint_cmake' to check CMake code style
+[0.743s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.744s] -- Added test 'uncrustify' to check C / C++ code style
+[0.744s] -- Configured uncrustify additional arguments: 
+[0.745s] -- Added test 'xmllint' to check XML markup files
+[0.745s] -- Configuring done
+[0.755s] -- Generating done
+[0.759s] -- Build files have been written to: /home/quangsang/ego_ws/build/drone_detect
+[0.768s] Invoked command in '/home/quangsang/ego_ws/build/drone_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/drone_detect
+[0.770s] Invoking command in '/home/quangsang/ego_ws/build/drone_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/drone_detect -- -j20 -l20
+[0.807s] [ 66%] [32mBuilding CXX object CMakeFiles/drone_detect.dir/src/drone_detect_node.cpp.o[0m
+[0.807s] [ 66%] [32mBuilding CXX object CMakeFiles/drone_detect.dir/src/drone_detector.cpp.o[0m
+[6.148s] In file included from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.148s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.148s]    69 |         const geometry_msgs::msg::PoseStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[6.148s]       |                                                                     [01;35m[K^[m[K
+[6.148s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[6.148s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[6.148s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[6.148s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.148s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.148s]   173 |     [01;36m[KConstPtr[m[K;
+[6.148s]       |     [01;36m[K^~~~~~~~[m[K
+[6.148s] In file included from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.148s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.148s]    69 |         const geometry_msgs::msg::PoseStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[6.148s]       |                                                                     [01;35m[K^[m[K
+[6.148s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[6.148s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[6.149s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[6.149s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.149s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.149s]   173 |     [01;36m[KConstPtr[m[K;
+[6.149s]       |     [01;36m[K^~~~~~~~[m[K
+[6.149s] In file included from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.149s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.149s]    69 |         const geometry_msgs::msg::PoseStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[6.149s]       |                                                                     [01;35m[K^[m[K
+[6.149s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[6.149s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:10[m[K,
+[6.149s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.149s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.149s]   115 |     [01;36m[KConstPtr[m[K;
+[6.149s]       |     [01;36m[K^~~~~~~~[m[K
+[6.149s] In file included from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.149s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:73:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.149s]    73 |         const geometry_msgs::msg::PoseStamped::ConstSharedPtr &camera_pose[01;35m[K)[m[K;
+[6.149s]       |                                                                           [01;35m[K^[m[K
+[6.149s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[6.149s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[6.149s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[6.149s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.149s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.149s]   173 |     [01;36m[KConstPtr[m[K;
+[6.150s]       |     [01;36m[K^~~~~~~~[m[K
+[6.150s] In file included from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.150s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:76:80:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.150s]    76 |     void rcvDepthImgCallback(const sensor_msgs::msg::Image::ConstPtr &depth_img[01;35m[K)[m[K;
+[6.150s]       |                                                                                [01;35m[K^[m[K
+[6.150s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[6.150s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[6.150s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[6.150s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.150s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.150s]   173 |     [01;36m[KConstPtr[m[K;
+[6.150s]       |     [01;36m[K^~~~~~~~[m[K
+[6.150s] In file included from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[6.150s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.150s]    69 | seStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[6.150s]       |                                 [01;35m[K^[m[K
+[6.151s] 
+[6.151s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[6.151s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[6.151s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[6.151s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[6.151s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.151s]   173 |     [01;36m[KConstPtr[m[K;
+[6.151s]       |     [01;36m[K^~~~~~~~[m[K
+[6.151s] In file included from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[6.151s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.151s]    69 | seStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[6.151s]       |                                 [01;35m[K^[m[K
+[6.151s] 
+[6.151s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[6.151s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[6.151s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[6.151s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[6.151s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.151s]   173 |     [01;36m[KConstPtr[m[K;
+[6.151s]       |     [01;36m[K^~~~~~~~[m[K
+[6.151s] In file included from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[6.151s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:69:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.151s]    69 | seStamped::ConstPtr &camera_pose[01;35m[K)[m[K;
+[6.151s]       |                                 [01;35m[K^[m[K
+[6.152s] 
+[6.152s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[6.152s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:10[m[K,
+[6.152s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[6.152s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.152s]   115 |     [01;36m[KConstPtr[m[K;
+[6.152s]       |     [01;36m[K^~~~~~~~[m[K
+[6.152s] In file included from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[6.152s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:73:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.152s]    73 | ped::ConstSharedPtr &camera_pose[01;35m[K)[m[K;
+[6.152s]       |                                 [01;35m[K^[m[K
+[6.152s] 
+[6.152s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[6.152s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[6.152s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[6.152s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[6.152s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.152s]   173 |     [01;36m[KConstPtr[m[K;
+[6.152s]       |     [01;36m[K^~~~~~~~[m[K
+[6.152s] In file included from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[6.152s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:76:80:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.153s]    76 | :msg::Image::ConstPtr &depth_img[01;35m[K)[m[K;
+[6.153s]       |                                 [01;35m[K^[m[K
+[6.153s] 
+[6.153s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[6.153s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[6.153s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[6.153s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detect_node.cpp:2[m[K:
+[6.153s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.153s]   173 |     [01;36m[KConstPtr[m[K;
+[6.153s]       |     [01;36m[K^~~~~~~~[m[K
+[6.408s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:190:93:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[6.408s]   190 |   void DroneDetector::rcvDepthImgCallback(const sensor_msgs::msg::Image::ConstPtr &depth_img[01;35m[K)[m[K
+[6.408s]       |                                                                                             [01;35m[K^[m[K
+[6.408s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[6.408s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[6.408s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/include/drone_detect/drone_detector.h:26[m[K,
+[6.408s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/drone_detect/src/drone_detector.cpp:1[m[K:
+[6.408s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.408s]   173 |     [01;36m[KConstPtr[m[K;
+[6.408s]       |     [01;36m[K^~~~~~~~[m[K
+[32.539s] [100%] [32m[1mLinking CXX executable drone_detect[0m
+[33.372s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.413
+[33.372s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.413
+[33.373s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.413
+[33.387s] [100%] Built target drone_detect
+[33.419s] Invoked command in '/home/quangsang/ego_ws/build/drone_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/drone_detect -- -j20 -l20
+[33.419s] Invoking command in '/home/quangsang/ego_ws/build/drone_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/drone_detect
+[33.440s] -- Install configuration: "Release"
+[33.440s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/lib/drone_detect/drone_detect
+[33.468s] -- Set runtime path of "/home/quangsang/ego_ws/install/drone_detect/lib/drone_detect/drone_detect" to ""
+[33.468s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/include/drone_detect
+[33.469s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/include/drone_detect/drone_detector.h
+[33.469s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/doc
+[33.469s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/doc/demo.jpg
+[33.469s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/doc/example.jpg
+[33.469s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/launch
+[33.469s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/launch/ros_package_template_overlying_params.launch.py
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/launch/drone_detect.launch.py
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/config
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/config/camera.yaml
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/config/default.yaml
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/ament_index/resource_index/package_run_dependencies/drone_detect
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/ament_index/resource_index/parent_prefix_path/drone_detect
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/environment/ament_prefix_path.sh
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/environment/ament_prefix_path.dsv
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/environment/path.sh
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/environment/path.dsv
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/local_setup.bash
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/local_setup.sh
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/local_setup.zsh
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/local_setup.dsv
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/package.dsv
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/ament_index/resource_index/packages/drone_detect
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/cmake/drone_detectConfig.cmake
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/cmake/drone_detectConfig-version.cmake
+[33.470s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/package.xml
+[33.484s] Invoked command in '/home/quangsang/ego_ws/build/drone_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/drone_detect

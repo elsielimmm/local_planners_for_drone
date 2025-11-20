@@ -1,0 +1,365 @@
+[0.024s] Invoking command in '/home/quangsang/ego_ws/build/multi_map_server': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake /home/quangsang/ego_ws/src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/multi_map_server
+[0.074s] -- The C compiler identification is GNU 9.5.0
+[0.121s] -- The CXX compiler identification is GNU 9.5.0
+[0.128s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.270s] -- Detecting CXX compiler ABI info - done
+[0.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.276s] -- Detecting CXX compile features
+[0.277s] -- Detecting CXX compile features - done
+[0.280s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.442s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.518s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.566s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.571s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.580s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.594s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.661s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.663s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.689s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.700s] -- Looking for pthread.h
+[0.764s] -- Looking for pthread.h - found
+[0.765s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.835s] -- Found Threads: TRUE  
+[0.896s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.908s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.934s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.945s] -- Found pose_utils: 0.0.0 (/home/quangsang/ego_ws/install/pose_utils/share/pose_utils/cmake)
+[0.947s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.959s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.975s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.975s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.976s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.039s] -- Found quadrotor_msgs: 0.0.0 (/home/quangsang/ego_ws/install/quadrotor_msgs/share/quadrotor_msgs/cmake)
+[1.059s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[1.063s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.077s] -- Found Armadillo: /usr/include (found version "10.8.2") 
+[1.404s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.127s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.151s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.153s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.183s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.183s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.183s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.183s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.206s] -- Found PythonExtra: .so  
+[2.324s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.351s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.352s] -- Configured cppcheck include dirs: /home/quangsang/ego_ws/src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/include
+[2.352s] -- Configured cppcheck exclude dirs and/or files: 
+[2.353s] -- Added test 'lint_cmake' to check CMake code style
+[2.354s] -- Added test 'uncrustify' to check C / C++ code style
+[2.354s] -- Configured uncrustify additional arguments: 
+[2.355s] -- Added test 'xmllint' to check XML markup files
+[2.358s] -- Configuring done
+[2.409s] -- Generating done
+[2.427s] -- Build files have been written to: /home/quangsang/ego_ws/build/multi_map_server
+[2.442s] Invoked command in '/home/quangsang/ego_ws/build/multi_map_server' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake /home/quangsang/ego_ws/src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server -DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/multi_map_server
+[2.444s] Invoking command in '/home/quangsang/ego_ws/build/multi_map_server': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/quangsang/ego_ws/build/multi_map_server -- -j20 -l20
+[2.485s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.495s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.503s] [  3%] Built target ament_cmake_python_copy_multi_map_server
+[2.777s] running egg_info
+[2.778s] creating multi_map_server.egg-info
+[2.778s] writing multi_map_server.egg-info/PKG-INFO
+[2.778s] writing dependency_links to multi_map_server.egg-info/dependency_links.txt
+[2.778s] writing top-level names to multi_map_server.egg-info/top_level.txt
+[2.779s] writing manifest file 'multi_map_server.egg-info/SOURCES.txt'
+[2.781s] reading manifest file 'multi_map_server.egg-info/SOURCES.txt'
+[2.781s] writing manifest file 'multi_map_server.egg-info/SOURCES.txt'
+[2.811s] [  3%] Built target ament_cmake_python_build_multi_map_server_egg
+[2.884s] [  3%] Built target multi_map_server__cpp
+[2.900s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.901s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.901s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.926s] [ 15%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_generator_c.dir/rosidl_generator_c/multi_map_server/msg/detail/multi_occupancy_grid__functions.c.o[0m
+[2.926s] [ 15%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_generator_c.dir/rosidl_generator_c/multi_map_server/msg/detail/multi_sparse_map3_d__functions.c.o[0m
+[2.926s] [ 15%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_generator_c.dir/rosidl_generator_c/multi_map_server/msg/detail/sparse_map3_d__functions.c.o[0m
+[2.926s] [ 15%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_generator_c.dir/rosidl_generator_c/multi_map_server/msg/detail/vertical_occupancy_grid_list__functions.c.o[0m
+[3.006s] [ 17%] [32m[1mLinking C shared library libmulti_map_server__rosidl_generator_c.so[0m
+[3.042s] [ 17%] Built target multi_map_server__rosidl_generator_c
+[3.053s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.053s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.053s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.214s] [ 24%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_map_server/msg/multi_occupancy_grid__type_support.cpp.o[0m
+[3.215s] [ 26%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_map_server/msg/multi_sparse_map3_d__type_support.cpp.o[0m
+[3.221s] [ 28%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_map_server/msg/sparse_map3_d__type_support.cpp.o[0m
+[3.227s] [ 29%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_map_server/msg/vertical_occupancy_grid_list__type_support.cpp.o[0m
+[3.293s] [ 31%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_map_server/msg/detail/multi_occupancy_grid__type_support.cpp.o[0m
+[3.293s] [ 33%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.cpp.o[0m
+[3.295s] [ 35%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.cpp.o[0m
+[3.299s] [ 36%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_map_server/msg/detail/sparse_map3_d__type_support.cpp.o[0m
+[3.313s] [ 38%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_map_server/msg/detail/dds_fastrtps/multi_occupancy_grid__type_support.cpp.o[0m
+[3.320s] [ 40%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_map_server/msg/detail/dds_fastrtps/multi_sparse_map3_d__type_support.cpp.o[0m
+[3.325s] [ 42%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_map_server/msg/detail/dds_fastrtps/sparse_map3_d__type_support.cpp.o[0m
+[3.329s] [ 43%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_map_server/msg/detail/dds_fastrtps/vertical_occupancy_grid_list__type_support.cpp.o[0m
+[3.395s] [ 45%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_map_server/msg/multi_occupancy_grid__type_support.cpp.o[0m
+[3.407s] [ 49%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_map_server/msg/sparse_map3_d__type_support.cpp.o[0m
+[3.407s] [ 49%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_map_server/msg/multi_sparse_map3_d__type_support.cpp.o[0m
+[3.407s] [ 50%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_map_server/msg/detail/multi_occupancy_grid__type_support.c.o[0m
+[3.409s] [ 52%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_map_server/msg/vertical_occupancy_grid_list__type_support.cpp.o[0m
+[3.412s] [ 54%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.c.o[0m
+[3.424s] [ 56%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_map_server/msg/detail/sparse_map3_d__type_support.c.o[0m
+[3.460s] [ 57%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.c.o[0m
+[3.476s] [ 59%] [32m[1mLinking CXX shared library libmulti_map_server__rosidl_typesupport_c.so[0m
+[3.546s] [ 59%] Built target multi_map_server__rosidl_typesupport_c
+[3.567s] [ 61%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_map_server/msg/detail/multi_occupancy_grid__type_support_c.cpp.o[0m
+[3.569s] [ 63%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_map_server/msg/detail/sparse_map3_d__type_support_c.cpp.o[0m
+[3.570s] [ 64%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_map_server/msg/detail/multi_sparse_map3_d__type_support_c.cpp.o[0m
+[3.573s] [ 66%] [32mBuilding CXX object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support_c.cpp.o[0m
+[3.585s] [ 68%] [32m[1mLinking C shared library libmulti_map_server__rosidl_typesupport_introspection_c.so[0m
+[3.643s] [ 70%] [32m[1mLinking CXX shared library libmulti_map_server__rosidl_typesupport_cpp.so[0m
+[3.656s] [ 70%] Built target multi_map_server__rosidl_typesupport_introspection_c
+[3.739s] [ 70%] Built target multi_map_server__rosidl_typesupport_cpp
+[3.785s] [ 71%] [32mBuilding CXX object CMakeFiles/multi_map_visualization.dir/src/multi_map_visualization.cc.o[0m
+[4.104s] [ 73%] [32m[1mLinking CXX shared library libmulti_map_server__rosidl_typesupport_fastrtps_c.so[0m
+[4.168s] [ 75%] [32m[1mLinking CXX shared library libmulti_map_server__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.174s] [ 77%] [32m[1mLinking CXX shared library libmulti_map_server__rosidl_typesupport_introspection_cpp.so[0m
+[4.175s] [ 77%] Built target multi_map_server__rosidl_typesupport_fastrtps_c
+[4.234s] [ 77%] Built target multi_map_server__rosidl_typesupport_introspection_cpp
+[4.265s] [ 77%] Built target multi_map_server__rosidl_typesupport_fastrtps_cpp
+[4.282s] [ 77%] Built target multi_map_server
+[4.297s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.632s] [ 78%] Built target multi_map_server__py
+[4.652s] [ 85%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_generator_py.dir/rosidl_generator_py/multi_map_server/msg/_sparse_map3_d_s.c.o[0m
+[4.652s] [ 85%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_generator_py.dir/rosidl_generator_py/multi_map_server/msg/_multi_occupancy_grid_s.c.o[0m
+[4.652s] [ 85%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_generator_py.dir/rosidl_generator_py/multi_map_server/msg/_vertical_occupancy_grid_list_s.c.o[0m
+[4.652s] [ 85%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_generator_py.dir/rosidl_generator_py/multi_map_server/msg/_multi_sparse_map3_d_s.c.o[0m
+[4.812s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/multi_map_server/libmulti_map_server__rosidl_generator_py.so[0m
+[4.844s] [ 87%] Built target multi_map_server__rosidl_generator_py
+[4.860s] [ 89%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.864s] [ 92%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.864s] [ 92%] [32mBuilding C object CMakeFiles/multi_map_server__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_c.c.o[0m
+[4.990s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/multi_map_server/multi_map_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.991s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/multi_map_server/multi_map_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.997s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/multi_map_server/multi_map_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.024s] [ 98%] Built target multi_map_server__rosidl_typesupport_introspection_c__pyext
+[5.035s] [ 98%] Built target multi_map_server__rosidl_typesupport_c__pyext
+[5.047s] [ 98%] Built target multi_map_server__rosidl_typesupport_fastrtps_c__pyext
+[7.085s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:18:84:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmulti_map_server::msg::MultiOccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.085s]    18 | ultiOccupancyGrid::ConstPtr &msg[01;35m[K)[m[K
+[7.085s]       |                                 [01;35m[K^[m[K
+[7.085s] 
+[7.085s] In file included from [01m[K/home/quangsang/ego_ws/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/multi_occupancy_grid.hpp:7[m[K,
+[7.085s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:5[m[K:
+[7.086s] [01m[K/home/quangsang/ego_ws/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/detail/multi_occupancy_grid__struct.hpp:112:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.086s]   112 |     [01;36m[KConstPtr[m[K;
+[7.086s]       |     [01;36m[K^~~~~~~~[m[K
+[7.088s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:37:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmulti_map_server::msg::MultiSparseMap3D_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[7.088s]    37 | :MultiSparseMap3D::ConstPtr &msg[01;35m[K)[m[K
+[7.088s]       |                                 [01;35m[K^[m[K
+[7.088s] 
+[7.088s] In file included from [01m[K/home/quangsang/ego_ws/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/multi_sparse_map3_d.hpp:7[m[K,
+[7.088s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:6[m[K:
+[7.088s] [01m[K/home/quangsang/ego_ws/build/multi_map_server/rosidl_generator_cpp/multi_map_server/msg/detail/multi_sparse_map3_d__struct.hpp:112:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[7.088s]   112 |     [01;36m[KConstPtr[m[K;
+[7.088s]       |     [01;36m[K^~~~~~~~[m[K
+[25.682s] [100%] [32m[1mLinking CXX executable multi_map_visualization[0m
+[26.252s] [100%] Built target multi_map_visualization
+[26.286s] Invoked command in '/home/quangsang/ego_ws/build/multi_map_server' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/quangsang/ego_ws/build/multi_map_server -- -j20 -l20
+[26.287s] Invoking command in '/home/quangsang/ego_ws/build/multi_map_server': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/quangsang/ego_ws/build/multi_map_server
+[26.297s] -- Install configuration: "Release"
+[26.297s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/ament_index/resource_index/rosidl_interfaces/multi_map_server
+[26.298s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server
+[26.298s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg
+[26.298s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/sparse_map3_d.h
+[26.298s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/vertical_occupancy_grid_list.h
+[26.298s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_occupancy_grid.h
+[26.298s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_generator_c__visibility_control.h
+[26.298s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail
+[26.298s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__struct.h
+[26.298s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__functions.h
+[26.298s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__functions.c
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__struct.h
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__functions.h
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__struct.h
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__functions.c
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.h
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__functions.c
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__type_support.h
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__functions.c
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__functions.h
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__type_support.h
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__functions.h
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__struct.h
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.h
+[26.299s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_sparse_map3_d.h
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/environment/library_path.sh
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/environment/library_path.dsv
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_c.so
+[26.302s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_c.so" to ""
+[26.302s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server
+[26.302s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.302s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_fastrtps_c.h
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_fastrtps_c.h
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_fastrtps_c.h
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_c.so
+[26.302s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_c.so" to ""
+[26.302s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server
+[26.302s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_sparse_map3_d.hpp
+[26.302s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/sparse_map3_d.hpp
+[26.302s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__traits.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__struct.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__struct.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__builder.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__traits.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__type_support.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__builder.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__traits.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__type_support.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__traits.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__struct.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__struct.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__builder.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__builder.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/multi_occupancy_grid.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/vertical_occupancy_grid_list.hpp
+[26.303s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_generator_cpp__visibility_control.hpp
+[26.304s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server
+[26.304s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg
+[26.308s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail
+[26.308s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[26.308s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/dds_fastrtps
+[26.308s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[26.308s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_fastrtps_cpp.hpp
+[26.308s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_fastrtps_cpp.hpp
+[26.308s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.308s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_cpp.so
+[26.308s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.308s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server
+[26.308s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg
+[26.308s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail
+[26.308s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_introspection_c.h
+[26.308s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__type_support.c
+[26.308s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.c
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_introspection_c.h
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__type_support.c
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_introspection_c.h
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.c
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_introspection_c.h
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_c.so
+[26.309s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_c.so" to ""
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_c.so
+[26.309s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_c.so" to ""
+[26.309s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server
+[26.309s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg
+[26.309s] -- Up-to-date: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__rosidl_typesupport_introspection_cpp.hpp
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/sparse_map3_d__type_support.cpp
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__rosidl_typesupport_introspection_cpp.hpp
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/vertical_occupancy_grid_list__type_support.cpp
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__type_support.cpp
+[26.309s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_occupancy_grid__type_support.cpp
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/include/multi_map_server/multi_map_server/msg/detail/multi_sparse_map3_d__rosidl_typesupport_introspection_cpp.hpp
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_cpp.so
+[26.310s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_introspection_cpp.so" to ""
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_cpp.so
+[26.310s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_typesupport_cpp.so" to ""
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/environment/pythonpath.sh
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/environment/pythonpath.dsv
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/SOURCES.txt
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/dependency_links.txt
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/PKG-INFO
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server-0.0.0-py3.10.egg-info/top_level.txt
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_vertical_occupancy_grid_list_s.c
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_occupancy_grid_s.c
+[26.310s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_sparse_map3_d.py
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_sparse_map3_d_s.c
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_occupancy_grid.py
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/__init__.py
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_sparse_map3_d.py
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_sparse_map3_d_s.c
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_vertical_occupancy_grid_list.py
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_c.c
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/libmulti_map_server__rosidl_generator_py.so
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/__init__.py
+[26.311s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/_multi_map_server_s.ep.rosidl_typesupport_introspection_c.c
+[26.315s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.354s] Listing '/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server'...
+[26.354s] Compiling '/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/__init__.py'...
+[26.354s] Listing '/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg'...
+[26.354s] Compiling '/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/__init__.py'...
+[26.354s] Compiling '/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_occupancy_grid.py'...
+[26.354s] Compiling '/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_multi_sparse_map3_d.py'...
+[26.354s] Compiling '/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_sparse_map3_d.py'...
+[26.354s] Compiling '/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/msg/_vertical_occupancy_grid_list.py'...
+[26.358s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.359s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[26.359s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.359s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[26.359s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[26.359s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages/multi_map_server/multi_map_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[26.359s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_py.so
+[26.360s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/lib/libmulti_map_server__rosidl_generator_py.so" to ""
+[26.361s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/msg/MultiOccupancyGrid.idl
+[26.361s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/msg/MultiSparseMap3D.idl
+[26.361s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/msg/SparseMap3D.idl
+[26.361s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/msg/VerticalOccupancyGridList.idl
+[26.361s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/msg/MultiOccupancyGrid.msg
+[26.361s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/msg/MultiSparseMap3D.msg
+[26.361s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/msg/SparseMap3D.msg
+[26.361s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/msg/VerticalOccupancyGridList.msg
+[26.362s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/lib/multi_map_server/multi_map_visualization
+[26.410s] -- Set runtime path of "/home/quangsang/ego_ws/install/multi_map_server/lib/multi_map_server/multi_map_visualization" to ""
+[26.410s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/ament_index/resource_index/package_run_dependencies/multi_map_server
+[26.410s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/ament_index/resource_index/parent_prefix_path/multi_map_server
+[26.411s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/environment/ament_prefix_path.sh
+[26.411s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/environment/ament_prefix_path.dsv
+[26.411s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/environment/path.sh
+[26.411s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/environment/path.dsv
+[26.411s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/local_setup.bash
+[26.411s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/local_setup.sh
+[26.411s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/local_setup.zsh
+[26.411s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/local_setup.dsv
+[26.411s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/package.dsv
+[26.412s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/ament_index/resource_index/packages/multi_map_server
+[26.412s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_cExport.cmake
+[26.412s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_cExport-release.cmake
+[26.412s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cExport.cmake
+[26.412s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cExport-release.cmake
+[26.412s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_cppExport.cmake
+[26.412s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.412s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[26.412s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cExport.cmake
+[26.412s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cExport-release.cmake
+[26.413s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cExport.cmake
+[26.413s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cExport-release.cmake
+[26.413s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cppExport.cmake
+[26.413s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_introspection_cppExport-release.cmake
+[26.413s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cppExport.cmake
+[26.413s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/multi_map_server__rosidl_typesupport_cppExport-release.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_pyExport.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/export_multi_map_server__rosidl_generator_pyExport-release.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/rosidl_cmake-extras.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/ament_cmake_export_targets-extras.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/multi_map_serverConfig.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/cmake/multi_map_serverConfig-version.cmake
+[26.416s] -- Installing: /home/quangsang/ego_ws/install/multi_map_server/share/multi_map_server/package.xml
+[26.424s] Invoked command in '/home/quangsang/ego_ws/build/multi_map_server' returned '0': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/home/quangsang/ego_ws/install/pcl_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --install /home/quangsang/ego_ws/build/multi_map_server

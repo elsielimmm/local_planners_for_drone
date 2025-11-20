@@ -1,0 +1,528 @@
+[0.000000] (-) TimerEvent: {}
+[0.000371] (-) JobUnselected: {'identifier': 'bspline_opt'}
+[0.000635] (-) JobUnselected: {'identifier': 'cmake_utils'}
+[0.000668] (-) JobUnselected: {'identifier': 'drone_detect'}
+[0.000703] (-) JobUnselected: {'identifier': 'ego_planner'}
+[0.000784] (-) JobUnselected: {'identifier': 'local_sensing'}
+[0.000807] (-) JobUnselected: {'identifier': 'map_generator'}
+[0.000866] (-) JobUnselected: {'identifier': 'mockamap'}
+[0.000886] (-) JobUnselected: {'identifier': 'multi_map_server'}
+[0.000905] (-) JobUnselected: {'identifier': 'odom_visualization'}
+[0.000974] (-) JobUnselected: {'identifier': 'offboard_control'}
+[0.000994] (-) JobUnselected: {'identifier': 'path_searching'}
+[0.001012] (-) JobUnselected: {'identifier': 'pcl_conversions'}
+[0.001031] (-) JobUnselected: {'identifier': 'pcl_msgs'}
+[0.001057] (-) JobUnselected: {'identifier': 'pcl_ros'}
+[0.001082] (-) JobUnselected: {'identifier': 'perception_pcl'}
+[0.001126] (-) JobUnselected: {'identifier': 'poscmd_2_odom'}
+[0.001146] (-) JobUnselected: {'identifier': 'pose_utils'}
+[0.001165] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001184] (-) JobUnselected: {'identifier': 'quadrotor_msgs'}
+[0.001223] (-) JobUnselected: {'identifier': 'rosmsg_tcp_bridge'}
+[0.001250] (-) JobUnselected: {'identifier': 'so3_control'}
+[0.001269] (-) JobUnselected: {'identifier': 'so3_quadrotor_simulator'}
+[0.001295] (-) JobUnselected: {'identifier': 'traj_utils'}
+[0.001342] (-) JobUnselected: {'identifier': 'uav_utils'}
+[0.001362] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.001384] (plan_env) JobQueued: {'identifier': 'plan_env', 'dependencies': OrderedDict([('pcl_msgs', '/home/quangsang/ego_ws/install/pcl_msgs'), ('pcl_conversions', '/home/quangsang/ego_ws/install/pcl_conversions')])}
+[0.001413] (plan_env) JobStarted: {'identifier': 'plan_env'}
+[0.010405] (plan_env) JobProgress: {'identifier': 'plan_env', 'progress': 'cmake'}
+[0.011451] (plan_env) Command: {'cmd': ['/usr/bin/cmake', '/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/quangsang/ego_ws/install/plan_env'], 'cwd': '/home/quangsang/ego_ws/build/plan_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/quangsang/PX4-Autopilot/Tools/simulation/gz/models:/home/quangsang/PX4-Autopilot/Tools/simulation/gz/worlds'), ('USER', 'quangsang'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/quangsang/ego_ws/install/pcl_msgs/lib:/usr/local/cuda-11.8/lib64:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64'), ('HOME', '/home/quangsang'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/quangsang/ego_ws/src/ego-planner-swarm'), ('TERM_PROGRAM_VERSION', '1.105.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '967'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '3048'), ('BUNDLED_DEBUGPY_PATH', '/home/quangsang/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '306048'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/quangsang/ego_ws/install:/home/quangsang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'quangsang'), ('JOURNAL_STREAM', '8:31794'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/quangsang/ros2_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/quangsang/ros2_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('GEMINI_CLI_IDE_WORKSPACE_PATH', '/home/quangsang/ego_ws'), ('USERNAME', 'quangsang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GEMINI_CLI_IDE_SERVER_PORT', '42057'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.8/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/quangsang/.local/bin:/home/quangsang/ros2_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/quangsang/miniconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/quangsang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin:/home/quangsang/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/quangsang/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/opt/xtensa-esp-elf/bin'), ('SESSION_MANAGER', 'local/soc3060-System-Product-Name:@/tmp/.ICE-unix/3027,unix/soc3060-System-Product-Name:/tmp/.ICE-unix/3027'), ('INVOCATION_ID', '7f3b9659774a4402bbc5dd6f323b5995'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/quangsang/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-fc39d818f11b9817.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/quangsang/.config/Code/User/workspaceStorage/ec28f1773518f479d799d29d95643b46/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-de0684462b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('ROS_DOMAIN_ID', '75'), ('AMENT_PREFIX_PATH', '/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/obstacle_publisher:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/quangsang/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('ISAACSIM50_PATH', '/home/quangsang/isaacsim-5.0'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('ISAACSIM45_PATH', '/home/quangsang/isaacsim'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/quangsang/ego_ws/build/plan_env'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-11.8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/quangsang/miniconda3/bin/conda'), ('GEMINI_API_KEY', 'AIzaSyADhC3p9OcA6cdeF9POl_6I6Z0A_CMfVbc'), ('HOMEPATH', '12345'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/quangsang/ros2_ws/install/gz_openvins_bridge/lib/python3.10/site-packages:/home/quangsang/ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/quangsang/ros2_ws/install/obstacle_publisher/lib/python3.10/site-packages:/home/quangsang/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble')]), 'shell': False}
+[0.021532] (plan_env) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099827] (-) TimerEvent: {}
+[0.104946] (plan_env) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.123396] (plan_env) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.124736] (plan_env) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.127924] (plan_env) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.133765] (plan_env) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.141094] (plan_env) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.160025] (plan_env) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.162141] (plan_env) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.172592] (plan_env) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.199821] (plan_env) StdoutLine: {'line': b'-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.199955] (-) TimerEvent: {}
+[0.200098] (plan_env) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.227411] (plan_env) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.236113] (plan_env) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.241292] (plan_env) StdoutLine: {'line': b'-- Found message_filters: 4.3.8 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.254219] (plan_env) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.282155] (plan_env) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.300063] (-) TimerEvent: {}
+[0.400284] (-) TimerEvent: {}
+[0.500721] (-) TimerEvent: {}
+[0.500992] (plan_env) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.505573] (plan_env) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.505802] (plan_env) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[0.600932] (-) TimerEvent: {}
+[0.630044] (plan_env) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.634405] (plan_env) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.640114] (plan_env) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.701029] (-) TimerEvent: {}
+[0.759013] (plan_env) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[0.801131] (-) TimerEvent: {}
+[0.882817] (plan_env) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.901236] (-) TimerEvent: {}
+[1.001460] (-) TimerEvent: {}
+[1.014350] (plan_env) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.014483] (plan_env) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.014659] (plan_env) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.014857] (plan_env) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.015020] (plan_env) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.015216] (plan_env) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.015452] (plan_env) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.015588] (plan_env) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.015730] (plan_env) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.015949] (plan_env) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.016172] (plan_env) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.016364] (plan_env) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.016603] (plan_env) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.016857] (plan_env) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.017094] (plan_env) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.017310] (plan_env) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.017534] (plan_env) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.017749] (plan_env) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.018036] (plan_env) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.018231] (plan_env) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.018749] (plan_env) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.018894] (plan_env) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.019039] (plan_env) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.019187] (plan_env) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.019418] (plan_env) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.020200] (plan_env) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/home/quangsang/ego_ws/install/pcl_conversions/share/pcl_conversions/cmake)\n'}
+[1.033012] (plan_env) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.101524] (-) TimerEvent: {}
+[1.101899] (plan_env) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.102249] (plan_env) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include\n'}
+[1.102293] (plan_env) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.102521] (plan_env) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.103000] (plan_env) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.103033] (plan_env) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.103115] (plan_env) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.103877] (plan_env) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.132740] (plan_env) StdoutLine: {'line': b'-- Generating done\n'}
+[1.140993] (plan_env) StdoutLine: {'line': b'-- Build files have been written to: /home/quangsang/ego_ws/build/plan_env\n'}
+[1.151031] (plan_env) CommandEnded: {'returncode': 0}
+[1.151631] (plan_env) JobProgress: {'identifier': 'plan_env', 'progress': 'build'}
+[1.152197] (plan_env) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/quangsang/ego_ws/build/plan_env', '--', '-j20', '-l20'], 'cwd': '/home/quangsang/ego_ws/build/plan_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/quangsang/PX4-Autopilot/Tools/simulation/gz/models:/home/quangsang/PX4-Autopilot/Tools/simulation/gz/worlds'), ('USER', 'quangsang'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/quangsang/ego_ws/install/pcl_msgs/lib:/usr/local/cuda-11.8/lib64:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64'), ('HOME', '/home/quangsang'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/quangsang/ego_ws/src/ego-planner-swarm'), ('TERM_PROGRAM_VERSION', '1.105.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '967'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '3048'), ('BUNDLED_DEBUGPY_PATH', '/home/quangsang/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '306048'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/quangsang/ego_ws/install:/home/quangsang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'quangsang'), ('JOURNAL_STREAM', '8:31794'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/quangsang/ros2_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/quangsang/ros2_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('GEMINI_CLI_IDE_WORKSPACE_PATH', '/home/quangsang/ego_ws'), ('USERNAME', 'quangsang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GEMINI_CLI_IDE_SERVER_PORT', '42057'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.8/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/quangsang/.local/bin:/home/quangsang/ros2_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/quangsang/miniconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/quangsang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin:/home/quangsang/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/quangsang/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/opt/xtensa-esp-elf/bin'), ('SESSION_MANAGER', 'local/soc3060-System-Product-Name:@/tmp/.ICE-unix/3027,unix/soc3060-System-Product-Name:/tmp/.ICE-unix/3027'), ('INVOCATION_ID', '7f3b9659774a4402bbc5dd6f323b5995'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/quangsang/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-fc39d818f11b9817.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/quangsang/.config/Code/User/workspaceStorage/ec28f1773518f479d799d29d95643b46/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-de0684462b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('ROS_DOMAIN_ID', '75'), ('AMENT_PREFIX_PATH', '/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/obstacle_publisher:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/quangsang/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('ISAACSIM50_PATH', '/home/quangsang/isaacsim-5.0'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('ISAACSIM45_PATH', '/home/quangsang/isaacsim'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/quangsang/ego_ws/build/plan_env'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-11.8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/quangsang/miniconda3/bin/conda'), ('GEMINI_API_KEY', 'AIzaSyADhC3p9OcA6cdeF9POl_6I6Z0A_CMfVbc'), ('HOMEPATH', '12345'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/quangsang/ros2_ws/install/gz_openvins_bridge/lib/python3.10/site-packages:/home/quangsang/ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/quangsang/ros2_ws/install/obstacle_publisher/lib/python3.10/site-packages:/home/quangsang/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble')]), 'shell': False}
+[1.186196] (plan_env) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obj_generator\x1b[0m\n'}
+[1.187275] (plan_env) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plan_env\x1b[0m\n'}
+[1.201641] (-) TimerEvent: {}
+[1.208728] (plan_env) StdoutLine: {'line': b'[ 33%] Built target obj_generator\n'}
+[1.214986] (plan_env) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/plan_env.dir/src/grid_map.cpp.o\x1b[0m\n'}
+[1.301728] (-) TimerEvent: {}
+[1.401983] (-) TimerEvent: {}
+[1.502267] (-) TimerEvent: {}
+[1.602546] (-) TimerEvent: {}
+[1.702829] (-) TimerEvent: {}
+[1.803070] (-) TimerEvent: {}
+[1.903313] (-) TimerEvent: {}
+[2.003530] (-) TimerEvent: {}
+[2.103794] (-) TimerEvent: {}
+[2.204038] (-) TimerEvent: {}
+[2.304283] (-) TimerEvent: {}
+[2.404514] (-) TimerEvent: {}
+[2.504748] (-) TimerEvent: {}
+[2.604992] (-) TimerEvent: {}
+[2.705282] (-) TimerEvent: {}
+[2.805515] (-) TimerEvent: {}
+[2.905782] (-) TimerEvent: {}
+[3.006040] (-) TimerEvent: {}
+[3.106333] (-) TimerEvent: {}
+[3.206585] (-) TimerEvent: {}
+[3.306937] (-) TimerEvent: {}
+[3.407199] (-) TimerEvent: {}
+[3.507487] (-) TimerEvent: {}
+[3.607754] (-) TimerEvent: {}
+[3.708013] (-) TimerEvent: {}
+[3.808244] (-) TimerEvent: {}
+[3.908491] (-) TimerEvent: {}
+[4.008701] (-) TimerEvent: {}
+[4.108951] (-) TimerEvent: {}
+[4.209208] (-) TimerEvent: {}
+[4.309490] (-) TimerEvent: {}
+[4.409738] (-) TimerEvent: {}
+[4.510010] (-) TimerEvent: {}
+[4.610222] (-) TimerEvent: {}
+[4.710466] (-) TimerEvent: {}
+[4.810669] (-) TimerEvent: {}
+[4.910907] (-) TimerEvent: {}
+[4.942642] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:775:86:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.942782] (plan_env) StderrLine: {'line': b'  775 |               const geometry_msgs::msg::PoseStamped::ConstPtr &pose\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.942819] (plan_env) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.942847] (plan_env) StderrLine: {'line': b'\n'}
+[4.942875] (plan_env) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[4.942905] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40\x1b[m\x1b[K,\n'}
+[4.942932] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:6\x1b[m\x1b[K,\n'}
+[4.942958] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1\x1b[m\x1b[K:\n'}
+[4.942984] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.943012] (plan_env) StderrLine: {'line': b'  173 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.943038] (plan_env) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.943063] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:775:86:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.943092] (plan_env) StderrLine: {'line': b'  775 |               const geometry_msgs::msg::PoseStamped::ConstPtr &pose\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.943117] (plan_env) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.943143] (plan_env) StderrLine: {'line': b'\n'}
+[4.943172] (plan_env) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[4.943201] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:7\x1b[m\x1b[K,\n'}
+[4.943226] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1\x1b[m\x1b[K:\n'}
+[4.943251] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.943277] (plan_env) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.943311] (plan_env) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.965990] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:850:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.966121] (plan_env) StderrLine: {'line': b'  850 | void GridMap::cloudCallback(const sensor_msgs::msg::PointCloud2::ConstPtr &img\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.966155] (plan_env) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.966185] (plan_env) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7\x1b[m\x1b[K,\n'}
+[4.966212] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59\x1b[m\x1b[K,\n'}
+[4.966242] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:18\x1b[m\x1b[K,\n'}
+[4.966269] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1\x1b[m\x1b[K:\n'}
+[4.966300] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:194:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.966339] (plan_env) StderrLine: {'line': b'  194 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.966366] (plan_env) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.984989] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1107:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.985119] (plan_env) StderrLine: {'line': b' 1107 | void GridMap::extrinsicCallback(const nav_msgs::msg::Odometry::ConstPtr &odom\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.985153] (plan_env) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.985182] (plan_env) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.985209] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:10\x1b[m\x1b[K,\n'}
+[4.985245] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1\x1b[m\x1b[K:\n'}
+[4.985273] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.985304] (plan_env) StderrLine: {'line': b'  146 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.985333] (plan_env) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.985509] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1122:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.985545] (plan_env) StderrLine: {'line': b' 1122 |                                 const nav_msgs::msg::Odometry::ConstPtr &odom\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.985577] (plan_env) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.985626] (plan_env) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7\x1b[m\x1b[K,\n'}
+[4.985654] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40\x1b[m\x1b[K,\n'}
+[4.985680] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:6\x1b[m\x1b[K,\n'}
+[4.985706] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1\x1b[m\x1b[K:\n'}
+[4.985731] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.985757] (plan_env) StderrLine: {'line': b'  173 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.985781] (plan_env) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.985805] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1122:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[4.985832] (plan_env) StderrLine: {'line': b' 1122 |                                 const nav_msgs::msg::Odometry::ConstPtr &odom\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.985857] (plan_env) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.985882] (plan_env) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.985907] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:10\x1b[m\x1b[K,\n'}
+[4.985931] (plan_env) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1\x1b[m\x1b[K:\n'}
+[4.985956] (plan_env) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.985981] (plan_env) StderrLine: {'line': b'  146 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[4.986006] (plan_env) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.011007] (-) TimerEvent: {}
+[5.111237] (-) TimerEvent: {}
+[5.211446] (-) TimerEvent: {}
+[5.311686] (-) TimerEvent: {}
+[5.411938] (-) TimerEvent: {}
+[5.512269] (-) TimerEvent: {}
+[5.612496] (-) TimerEvent: {}
+[5.712756] (-) TimerEvent: {}
+[5.812974] (-) TimerEvent: {}
+[5.913261] (-) TimerEvent: {}
+[6.013486] (-) TimerEvent: {}
+[6.113738] (-) TimerEvent: {}
+[6.213983] (-) TimerEvent: {}
+[6.314240] (-) TimerEvent: {}
+[6.414464] (-) TimerEvent: {}
+[6.514708] (-) TimerEvent: {}
+[6.614957] (-) TimerEvent: {}
+[6.715210] (-) TimerEvent: {}
+[6.815453] (-) TimerEvent: {}
+[6.915708] (-) TimerEvent: {}
+[7.015965] (-) TimerEvent: {}
+[7.116216] (-) TimerEvent: {}
+[7.216446] (-) TimerEvent: {}
+[7.316712] (-) TimerEvent: {}
+[7.416971] (-) TimerEvent: {}
+[7.517208] (-) TimerEvent: {}
+[7.617440] (-) TimerEvent: {}
+[7.717702] (-) TimerEvent: {}
+[7.817940] (-) TimerEvent: {}
+[7.918216] (-) TimerEvent: {}
+[8.018445] (-) TimerEvent: {}
+[8.118703] (-) TimerEvent: {}
+[8.218952] (-) TimerEvent: {}
+[8.319185] (-) TimerEvent: {}
+[8.419424] (-) TimerEvent: {}
+[8.519641] (-) TimerEvent: {}
+[8.619886] (-) TimerEvent: {}
+[8.720105] (-) TimerEvent: {}
+[8.820349] (-) TimerEvent: {}
+[8.920574] (-) TimerEvent: {}
+[9.020828] (-) TimerEvent: {}
+[9.121084] (-) TimerEvent: {}
+[9.221324] (-) TimerEvent: {}
+[9.321546] (-) TimerEvent: {}
+[9.421781] (-) TimerEvent: {}
+[9.522024] (-) TimerEvent: {}
+[9.622268] (-) TimerEvent: {}
+[9.722510] (-) TimerEvent: {}
+[9.822740] (-) TimerEvent: {}
+[9.922991] (-) TimerEvent: {}
+[10.023231] (-) TimerEvent: {}
+[10.123451] (-) TimerEvent: {}
+[10.223670] (-) TimerEvent: {}
+[10.323914] (-) TimerEvent: {}
+[10.424200] (-) TimerEvent: {}
+[10.524459] (-) TimerEvent: {}
+[10.624691] (-) TimerEvent: {}
+[10.725023] (-) TimerEvent: {}
+[10.825260] (-) TimerEvent: {}
+[10.925569] (-) TimerEvent: {}
+[11.025781] (-) TimerEvent: {}
+[11.126008] (-) TimerEvent: {}
+[11.226235] (-) TimerEvent: {}
+[11.326546] (-) TimerEvent: {}
+[11.426775] (-) TimerEvent: {}
+[11.527008] (-) TimerEvent: {}
+[11.627240] (-) TimerEvent: {}
+[11.727484] (-) TimerEvent: {}
+[11.827717] (-) TimerEvent: {}
+[11.927954] (-) TimerEvent: {}
+[12.028197] (-) TimerEvent: {}
+[12.128405] (-) TimerEvent: {}
+[12.228618] (-) TimerEvent: {}
+[12.328855] (-) TimerEvent: {}
+[12.429088] (-) TimerEvent: {}
+[12.529319] (-) TimerEvent: {}
+[12.629523] (-) TimerEvent: {}
+[12.729753] (-) TimerEvent: {}
+[12.829956] (-) TimerEvent: {}
+[12.930187] (-) TimerEvent: {}
+[13.030427] (-) TimerEvent: {}
+[13.130743] (-) TimerEvent: {}
+[13.230975] (-) TimerEvent: {}
+[13.331205] (-) TimerEvent: {}
+[13.431411] (-) TimerEvent: {}
+[13.531636] (-) TimerEvent: {}
+[13.631875] (-) TimerEvent: {}
+[13.732121] (-) TimerEvent: {}
+[13.832410] (-) TimerEvent: {}
+[13.932623] (-) TimerEvent: {}
+[14.032912] (-) TimerEvent: {}
+[14.133156] (-) TimerEvent: {}
+[14.233358] (-) TimerEvent: {}
+[14.333587] (-) TimerEvent: {}
+[14.433819] (-) TimerEvent: {}
+[14.534063] (-) TimerEvent: {}
+[14.634271] (-) TimerEvent: {}
+[14.734486] (-) TimerEvent: {}
+[14.834777] (-) TimerEvent: {}
+[14.935024] (-) TimerEvent: {}
+[15.035247] (-) TimerEvent: {}
+[15.135459] (-) TimerEvent: {}
+[15.235701] (-) TimerEvent: {}
+[15.335936] (-) TimerEvent: {}
+[15.436138] (-) TimerEvent: {}
+[15.536364] (-) TimerEvent: {}
+[15.636569] (-) TimerEvent: {}
+[15.736816] (-) TimerEvent: {}
+[15.837016] (-) TimerEvent: {}
+[15.937250] (-) TimerEvent: {}
+[16.037511] (-) TimerEvent: {}
+[16.137740] (-) TimerEvent: {}
+[16.237966] (-) TimerEvent: {}
+[16.338195] (-) TimerEvent: {}
+[16.438402] (-) TimerEvent: {}
+[16.538634] (-) TimerEvent: {}
+[16.638860] (-) TimerEvent: {}
+[16.739090] (-) TimerEvent: {}
+[16.839328] (-) TimerEvent: {}
+[16.939563] (-) TimerEvent: {}
+[17.039789] (-) TimerEvent: {}
+[17.140024] (-) TimerEvent: {}
+[17.240283] (-) TimerEvent: {}
+[17.340515] (-) TimerEvent: {}
+[17.440722] (-) TimerEvent: {}
+[17.540933] (-) TimerEvent: {}
+[17.641154] (-) TimerEvent: {}
+[17.741354] (-) TimerEvent: {}
+[17.841561] (-) TimerEvent: {}
+[17.941794] (-) TimerEvent: {}
+[18.042024] (-) TimerEvent: {}
+[18.142244] (-) TimerEvent: {}
+[18.242641] (-) TimerEvent: {}
+[18.342876] (-) TimerEvent: {}
+[18.443176] (-) TimerEvent: {}
+[18.543419] (-) TimerEvent: {}
+[18.643702] (-) TimerEvent: {}
+[18.744030] (-) TimerEvent: {}
+[18.844253] (-) TimerEvent: {}
+[18.944464] (-) TimerEvent: {}
+[19.044761] (-) TimerEvent: {}
+[19.145008] (-) TimerEvent: {}
+[19.245246] (-) TimerEvent: {}
+[19.345466] (-) TimerEvent: {}
+[19.445697] (-) TimerEvent: {}
+[19.545927] (-) TimerEvent: {}
+[19.646138] (-) TimerEvent: {}
+[19.746352] (-) TimerEvent: {}
+[19.846628] (-) TimerEvent: {}
+[19.946864] (-) TimerEvent: {}
+[20.047094] (-) TimerEvent: {}
+[20.147332] (-) TimerEvent: {}
+[20.247542] (-) TimerEvent: {}
+[20.347770] (-) TimerEvent: {}
+[20.448015] (-) TimerEvent: {}
+[20.548218] (-) TimerEvent: {}
+[20.648429] (-) TimerEvent: {}
+[20.748668] (-) TimerEvent: {}
+[20.848901] (-) TimerEvent: {}
+[20.949103] (-) TimerEvent: {}
+[21.049339] (-) TimerEvent: {}
+[21.149542] (-) TimerEvent: {}
+[21.249776] (-) TimerEvent: {}
+[21.350012] (-) TimerEvent: {}
+[21.450234] (-) TimerEvent: {}
+[21.550443] (-) TimerEvent: {}
+[21.650677] (-) TimerEvent: {}
+[21.750903] (-) TimerEvent: {}
+[21.851104] (-) TimerEvent: {}
+[21.951334] (-) TimerEvent: {}
+[22.051537] (-) TimerEvent: {}
+[22.151762] (-) TimerEvent: {}
+[22.251982] (-) TimerEvent: {}
+[22.352212] (-) TimerEvent: {}
+[22.452413] (-) TimerEvent: {}
+[22.552641] (-) TimerEvent: {}
+[22.652871] (-) TimerEvent: {}
+[22.753108] (-) TimerEvent: {}
+[22.853346] (-) TimerEvent: {}
+[22.953554] (-) TimerEvent: {}
+[23.053797] (-) TimerEvent: {}
+[23.154027] (-) TimerEvent: {}
+[23.254272] (-) TimerEvent: {}
+[23.354485] (-) TimerEvent: {}
+[23.454721] (-) TimerEvent: {}
+[23.554960] (-) TimerEvent: {}
+[23.655188] (-) TimerEvent: {}
+[23.755396] (-) TimerEvent: {}
+[23.855594] (-) TimerEvent: {}
+[23.955832] (-) TimerEvent: {}
+[24.056064] (-) TimerEvent: {}
+[24.156283] (-) TimerEvent: {}
+[24.256511] (-) TimerEvent: {}
+[24.356758] (-) TimerEvent: {}
+[24.457014] (-) TimerEvent: {}
+[24.557309] (-) TimerEvent: {}
+[24.657519] (-) TimerEvent: {}
+[24.757759] (-) TimerEvent: {}
+[24.857994] (-) TimerEvent: {}
+[24.958231] (-) TimerEvent: {}
+[25.058448] (-) TimerEvent: {}
+[25.158680] (-) TimerEvent: {}
+[25.258930] (-) TimerEvent: {}
+[25.359161] (-) TimerEvent: {}
+[25.459390] (-) TimerEvent: {}
+[25.559684] (-) TimerEvent: {}
+[25.659919] (-) TimerEvent: {}
+[25.760157] (-) TimerEvent: {}
+[25.860371] (-) TimerEvent: {}
+[25.960603] (-) TimerEvent: {}
+[26.060836] (-) TimerEvent: {}
+[26.161066] (-) TimerEvent: {}
+[26.261324] (-) TimerEvent: {}
+[26.361581] (-) TimerEvent: {}
+[26.461802] (-) TimerEvent: {}
+[26.562086] (-) TimerEvent: {}
+[26.662349] (-) TimerEvent: {}
+[26.762563] (-) TimerEvent: {}
+[26.862794] (-) TimerEvent: {}
+[26.963031] (-) TimerEvent: {}
+[27.063275] (-) TimerEvent: {}
+[27.163576] (-) TimerEvent: {}
+[27.263882] (-) TimerEvent: {}
+[27.364129] (-) TimerEvent: {}
+[27.464369] (-) TimerEvent: {}
+[27.564578] (-) TimerEvent: {}
+[27.664805] (-) TimerEvent: {}
+[27.765072] (-) TimerEvent: {}
+[27.865314] (-) TimerEvent: {}
+[27.965529] (-) TimerEvent: {}
+[28.065802] (-) TimerEvent: {}
+[28.166033] (-) TimerEvent: {}
+[28.266351] (-) TimerEvent: {}
+[28.366587] (-) TimerEvent: {}
+[28.466821] (-) TimerEvent: {}
+[28.567055] (-) TimerEvent: {}
+[28.667360] (-) TimerEvent: {}
+[28.767582] (-) TimerEvent: {}
+[28.867814] (-) TimerEvent: {}
+[28.968024] (-) TimerEvent: {}
+[29.068250] (-) TimerEvent: {}
+[29.168471] (-) TimerEvent: {}
+[29.268692] (-) TimerEvent: {}
+[29.368922] (-) TimerEvent: {}
+[29.469141] (-) TimerEvent: {}
+[29.569358] (-) TimerEvent: {}
+[29.669563] (-) TimerEvent: {}
+[29.769782] (-) TimerEvent: {}
+[29.870055] (-) TimerEvent: {}
+[29.970300] (-) TimerEvent: {}
+[30.070505] (-) TimerEvent: {}
+[30.170739] (-) TimerEvent: {}
+[30.270980] (-) TimerEvent: {}
+[30.371212] (-) TimerEvent: {}
+[30.471423] (-) TimerEvent: {}
+[30.571621] (-) TimerEvent: {}
+[30.671828] (-) TimerEvent: {}
+[30.772123] (-) TimerEvent: {}
+[30.872363] (-) TimerEvent: {}
+[30.972665] (-) TimerEvent: {}
+[31.072911] (-) TimerEvent: {}
+[31.173157] (-) TimerEvent: {}
+[31.273361] (-) TimerEvent: {}
+[31.373571] (-) TimerEvent: {}
+[31.473806] (-) TimerEvent: {}
+[31.574036] (-) TimerEvent: {}
+[31.674274] (-) TimerEvent: {}
+[31.774489] (-) TimerEvent: {}
+[31.874730] (-) TimerEvent: {}
+[31.974978] (-) TimerEvent: {}
+[32.075224] (-) TimerEvent: {}
+[32.175456] (-) TimerEvent: {}
+[32.275799] (-) TimerEvent: {}
+[32.376130] (-) TimerEvent: {}
+[32.476433] (-) TimerEvent: {}
+[32.528058] (plan_env) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libplan_env.so\x1b[0m\n'}
+[32.576594] (-) TimerEvent: {}
+[32.676845] (-) TimerEvent: {}
+[32.777081] (-) TimerEvent: {}
+[32.877321] (-) TimerEvent: {}
+[32.977534] (-) TimerEvent: {}
+[33.077829] (-) TimerEvent: {}
+[33.178150] (-) TimerEvent: {}
+[33.278334] (-) TimerEvent: {}
+[33.378563] (-) TimerEvent: {}
+[33.439214] (plan_env) StdoutLine: {'line': b'[100%] Built target plan_env\n'}
+[33.446780] (plan_env) CommandEnded: {'returncode': 0}
+[33.447186] (plan_env) JobProgress: {'identifier': 'plan_env', 'progress': 'install'}
+[33.454067] (plan_env) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/quangsang/ego_ws/build/plan_env'], 'cwd': '/home/quangsang/ego_ws/build/plan_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/quangsang/PX4-Autopilot/Tools/simulation/gz/models:/home/quangsang/PX4-Autopilot/Tools/simulation/gz/worlds'), ('USER', 'quangsang'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/quangsang/ego_ws/install/pcl_msgs/lib:/usr/local/cuda-11.8/lib64:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64'), ('HOME', '/home/quangsang'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/quangsang/ego_ws/src/ego-planner-swarm'), ('TERM_PROGRAM_VERSION', '1.105.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'vi_VN'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '967'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '3048'), ('BUNDLED_DEBUGPY_PATH', '/home/quangsang/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '306048'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/quangsang/ego_ws/install:/home/quangsang/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'quangsang'), ('JOURNAL_STREAM', '8:31794'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/quangsang/ros2_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/quangsang/ros2_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('GEMINI_CLI_IDE_WORKSPACE_PATH', '/home/quangsang/ego_ws'), ('USERNAME', 'quangsang'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('GEMINI_CLI_IDE_SERVER_PORT', '42057'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-11.8/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/quangsang/.local/bin:/home/quangsang/ros2_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/cuda-11.8/bin:/home/quangsang/miniconda3/condabin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/quangsang/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin:/home/quangsang/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/quangsang/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/opt/xtensa-esp-elf/bin'), ('SESSION_MANAGER', 'local/soc3060-System-Product-Name:@/tmp/.ICE-unix/3027,unix/soc3060-System-Product-Name:/tmp/.ICE-unix/3027'), ('INVOCATION_ID', '7f3b9659774a4402bbc5dd6f323b5995'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/quangsang/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-fc39d818f11b9817.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/quangsang/.config/Code/User/workspaceStorage/ec28f1773518f479d799d29d95643b46/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'vi_VN'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1002/vscode-git-de0684462b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('ROS_DOMAIN_ID', '75'), ('AMENT_PREFIX_PATH', '/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/obstacle_publisher:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/quangsang/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('ISAACSIM50_PATH', '/home/quangsang/isaacsim-5.0'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN'), ('ISAACSIM45_PATH', '/home/quangsang/isaacsim'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/quangsang/ego_ws/build/plan_env'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda-11.8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/quangsang/miniconda3/bin/conda'), ('GEMINI_API_KEY', 'AIzaSyADhC3p9OcA6cdeF9POl_6I6Z0A_CMfVbc'), ('HOMEPATH', '12345'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/quangsang/ros2_ws/install/gz_openvins_bridge/lib/python3.10/site-packages:/home/quangsang/ros2_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/quangsang/ros2_ws/install/obstacle_publisher/lib/python3.10/site-packages:/home/quangsang/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/traj_utils/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/multi_map_server/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/quadrotor_msgs/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/home/quangsang/ego_ws/install/pcl_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble')]), 'shell': False}
+[33.459912] (plan_env) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[33.459987] (plan_env) StdoutLine: {'line': b'-- Installing: /home/quangsang/ego_ws/install/plan_env/lib/libplan_env.so\n'}
+[33.478670] (-) TimerEvent: {}
+[33.505487] (plan_env) StdoutLine: {'line': b'-- Set runtime path of "/home/quangsang/ego_ws/install/plan_env/lib/libplan_env.so" to ""\n'}
+[33.505771] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/lib/plan_env/obj_generator\n'}
+[33.505862] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/include/plan_env\n'}
+[33.505894] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/include/plan_env/linear_obj_model.hpp\n'}
+[33.505925] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/include/plan_env/raycast.h\n'}
+[33.505956] (plan_env) StdoutLine: {'line': b'-- Installing: /home/quangsang/ego_ws/install/plan_env/include/plan_env/grid_map.h\n'}
+[33.505986] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/include/plan_env/obj_predictor.h\n'}
+[33.506015] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/environment/library_path.sh\n'}
+[33.506045] (plan_env) StdoutLine: {'line': b'-- Installing: /home/quangsang/ego_ws/install/plan_env/share/plan_env/environment/library_path.dsv\n'}
+[33.506074] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/ament_index/resource_index/package_run_dependencies/plan_env\n'}
+[33.506104] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/ament_index/resource_index/parent_prefix_path/plan_env\n'}
+[33.506133] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/environment/ament_prefix_path.sh\n'}
+[33.506161] (plan_env) StdoutLine: {'line': b'-- Installing: /home/quangsang/ego_ws/install/plan_env/share/plan_env/environment/ament_prefix_path.dsv\n'}
+[33.506188] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/environment/path.sh\n'}
+[33.506216] (plan_env) StdoutLine: {'line': b'-- Installing: /home/quangsang/ego_ws/install/plan_env/share/plan_env/environment/path.dsv\n'}
+[33.506243] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/local_setup.bash\n'}
+[33.506271] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/local_setup.sh\n'}
+[33.506312] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/local_setup.zsh\n'}
+[33.506359] (plan_env) StdoutLine: {'line': b'-- Installing: /home/quangsang/ego_ws/install/plan_env/share/plan_env/local_setup.dsv\n'}
+[33.506384] (plan_env) StdoutLine: {'line': b'-- Installing: /home/quangsang/ego_ws/install/plan_env/share/plan_env/package.dsv\n'}
+[33.506410] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/ament_index/resource_index/packages/plan_env\n'}
+[33.506435] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.506461] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.506485] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/cmake/plan_envConfig.cmake\n'}
+[33.506510] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/cmake/plan_envConfig-version.cmake\n'}
+[33.506535] (plan_env) StdoutLine: {'line': b'-- Up-to-date: /home/quangsang/ego_ws/install/plan_env/share/plan_env/package.xml\n'}
+[33.507311] (plan_env) CommandEnded: {'returncode': 0}
+[33.518551] (plan_env) JobEnded: {'identifier': 'plan_env', 'rc': 0}
+[33.518933] (-) EventReactorShutdown: {}

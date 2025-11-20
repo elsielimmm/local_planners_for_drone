@@ -1,0 +1,34 @@
+[0.022s] Invoking command in '/home/quangsang/ego_ws/build/drone_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/drone_detect -- -j20 -l20
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target drone_detect[0m
+[0.103s] [100%] Built target drone_detect
+[0.142s] Invoked command in '/home/quangsang/ego_ws/build/drone_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --build /home/quangsang/ego_ws/build/drone_detect -- -j20 -l20
+[0.143s] Invoking command in '/home/quangsang/ego_ws/build/drone_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/drone_detect
+[0.147s] -- Install configuration: "Release"
+[0.147s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/lib/drone_detect/drone_detect
+[0.147s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/include/drone_detect
+[0.147s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/include/drone_detect/drone_detector.h
+[0.147s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/doc
+[0.147s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/doc/demo.jpg
+[0.147s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/doc/example.jpg
+[0.147s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/launch
+[0.147s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/launch/ros_package_template_overlying_params.launch.py
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/launch/drone_detect.launch.py
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/config
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/config/camera.yaml
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/config/default.yaml
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/ament_index/resource_index/package_run_dependencies/drone_detect
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/ament_index/resource_index/parent_prefix_path/drone_detect
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/environment/ament_prefix_path.sh
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/environment/ament_prefix_path.dsv
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/environment/path.sh
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/environment/path.dsv
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/local_setup.bash
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/local_setup.sh
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/local_setup.zsh
+[0.148s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/local_setup.dsv
+[0.148s] -- Installing: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/package.dsv
+[0.149s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/ament_index/resource_index/packages/drone_detect
+[0.149s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/cmake/drone_detectConfig.cmake
+[0.149s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/cmake/drone_detectConfig-version.cmake
+[0.149s] -- Up-to-date: /home/quangsang/ego_ws/install/drone_detect/share/drone_detect/package.xml
+[0.150s] Invoked command in '/home/quangsang/ego_ws/build/drone_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble /usr/bin/cmake --install /home/quangsang/ego_ws/build/drone_detect

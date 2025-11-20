@@ -1,0 +1,71 @@
+[0.037s] Invoking command in '/home/quangsang/ego_ws/build/plan_env': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/quangsang/ego_ws/build/plan_env -- -j20 -l20
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target plan_env[0m
+[0.087s] [ 33%] Built target obj_generator
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/grid_map.cpp.o[0m
+[4.059s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:759:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.059s]   759 | msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K
+[4.059s]       |                                 [01;35m[K^[m[K
+[4.059s] 
+[4.059s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[4.059s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[4.059s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:6[m[K,
+[4.059s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[4.059s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.059s]   173 |     [01;36m[KConstPtr[m[K;
+[4.059s]       |     [01;36m[K^~~~~~~~[m[K
+[4.059s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:759:86:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.059s]   759 | msg::PoseStamped::ConstPtr &pose[01;35m[K)[m[K
+[4.059s]       |                                 [01;35m[K^[m[K
+[4.060s] 
+[4.060s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[4.060s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:7[m[K,
+[4.060s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[4.060s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.060s]   115 |     [01;36m[KConstPtr[m[K;
+[4.060s]       |     [01;36m[K^~~~~~~~[m[K
+[4.064s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:806:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.065s]   806 | :msg::PointCloud2::ConstPtr &img[01;35m[K)[m[K
+[4.065s]       |                                 [01;35m[K^[m[K
+[4.065s] 
+[4.065s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+[4.065s]                  from [01m[K/home/quangsang/ego_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions/pcl_conversions.h:59[m[K,
+[4.065s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:18[m[K,
+[4.065s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[4.065s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp:194:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.065s]   194 |     [01;36m[KConstPtr[m[K;
+[4.065s]       |     [01;36m[K^~~~~~~~[m[K
+[4.082s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1031:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.082s]  1031 | s::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K
+[4.082s]       |                                 [01;35m[K^[m[K
+[4.082s] 
+[4.082s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[4.082s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:10[m[K,
+[4.082s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[4.082s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.082s]   146 |     [01;36m[KConstPtr[m[K;
+[4.082s]       |     [01;36m[K^~~~~~~~[m[K
+[4.092s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1046:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksensor_msgs::msg::Image_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.092s]  1046 | s::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K
+[4.092s]       |                                 [01;35m[K^[m[K
+[4.092s] 
+[4.092s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:7[m[K,
+[4.092s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:40[m[K,
+[4.092s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:6[m[K,
+[4.092s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[4.092s] [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp:173:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.092s]   173 |     [01;36m[KConstPtr[m[K;
+[4.092s]       |     [01;36m[K^~~~~~~~[m[K
+[4.092s] [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1046:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[4.092s]  1046 | s::msg::Odometry::ConstPtr &odom[01;35m[K)[m[K
+[4.092s]       |                                 [01;35m[K^[m[K
+[4.093s] 
+[4.093s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+[4.093s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/include/plan_env/grid_map.h:10[m[K,
+[4.093s]                  from [01m[K/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/plan_env/src/grid_map.cpp:1[m[K:
+[4.093s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:146:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.093s]   146 |     [01;36m[KConstPtr[m[K;
+[4.093s]       |     [01;36m[K^~~~~~~~[m[K
+[5.126s] gmake[2]: *** [CMakeFiles/plan_env.dir/build.make:76: CMakeFiles/plan_env.dir/src/grid_map.cpp.o] Interrupt
+[5.126s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/plan_env.dir/all] Interrupt
+[5.126s] gmake: *** [Makefile:146: all] Interrupt
+[5.163s] Invoked command in '/home/quangsang/ego_ws/build/plan_env' returned '-2': CMAKE_PREFIX_PATH=/home/quangsang/ego_ws/install/pcl_conversions:/home/quangsang/ego_ws/install/pcl_msgs:/home/quangsang/ros2_ws/install/ros_ign_bridge:/home/quangsang/ros2_ws/install/ros_gz_bridge:/home/quangsang/ros2_ws/install/ros_gz_interfaces:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp:/home/quangsang/ros2_ws/install/px4_msgs:/home/quangsang/ros2_ws/install/gz_ros_bridge:/home/quangsang/ros2_ws/install/depthimage_to_pointcloud2:/home/quangsang/ros2_ws/install/cyclonedds:/home/quangsang/ego_ws/install/waypoint_generator:/home/quangsang/ego_ws/install/so3_quadrotor_simulator:/home/quangsang/ego_ws/install/uav_utils:/home/quangsang/ego_ws/install/rosmsg_tcp_bridge:/home/quangsang/ego_ws/install/offboard_control:/home/quangsang/ego_ws/install/ego_planner:/home/quangsang/ego_ws/install/bspline_opt:/home/quangsang/ego_ws/install/traj_utils:/home/quangsang/ego_ws/install/so3_control:/home/quangsang/ego_ws/install/poscmd_2_odom:/home/quangsang/ego_ws/install/odom_visualization:/home/quangsang/ego_ws/install/multi_map_server:/home/quangsang/ego_ws/install/local_sensing:/home/quangsang/ego_ws/install/quadrotor_msgs:/home/quangsang/ego_ws/install/px4_msgs:/home/quangsang/ego_ws/install/pose_utils:/home/quangsang/ego_ws/install/path_searching:/home/quangsang/ego_ws/install/plan_env:/home/quangsang/ego_ws/install/perception_pcl:/home/quangsang/ego_ws/install/mockamap:/home/quangsang/ego_ws/install/pcl_ros:/home/quangsang/ego_ws/install/map_generator:/home/quangsang/ego_ws/install/drone_detect:/home/quangsang/ego_ws/install/cmake_utils:/home/quangsang/ros2_ws/install/gz_openvins_bridge:/home/quangsang/ros2_ws/install/obstacle_publisher:/opt/ros/humble LD_LIBRARY_PATH=/home/quangsang/ego_ws/install/pcl_msgs/lib:/home/quangsang/ros2_ws/install/ros_gz_bridge/lib:/home/quangsang/ros2_ws/install/ros_gz_interfaces/lib:/home/quangsang/ros2_ws/install/rmw_cyclonedds_cpp/lib:/home/quangsang/ros2_ws/install/px4_msgs/lib:/home/quangsang/ros2_ws/install/cyclonedds/lib:/home/quangsang/ego_ws/install/bspline_opt/lib:/home/quangsang/ego_ws/install/traj_utils/lib:/home/quangsang/ego_ws/install/so3_control/lib:/home/quangsang/ego_ws/install/multi_map_server/lib:/home/quangsang/ego_ws/install/quadrotor_msgs/lib:/home/quangsang/ego_ws/install/px4_msgs/lib:/home/quangsang/ego_ws/install/pose_utils/lib:/home/quangsang/ego_ws/install/path_searching/lib:/home/quangsang/ego_ws/install/plan_env/lib:/home/quangsang/ego_ws/install/pcl_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-11.8/lib64 /usr/bin/cmake --build /home/quangsang/ego_ws/build/plan_env -- -j20 -l20

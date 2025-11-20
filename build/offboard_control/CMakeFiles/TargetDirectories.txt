@@ -1,0 +1,10 @@
+/home/quangsang/ego_ws/build/offboard_control/CMakeFiles/uninstall.dir
+/home/quangsang/ego_ws/build/offboard_control/CMakeFiles/offboard_control_uninstall.dir
+/home/quangsang/ego_ws/build/offboard_control/CMakeFiles/px4_offboard_path.dir
+/home/quangsang/ego_ws/build/offboard_control/CMakeFiles/test.dir
+/home/quangsang/ego_ws/build/offboard_control/CMakeFiles/edit_cache.dir
+/home/quangsang/ego_ws/build/offboard_control/CMakeFiles/rebuild_cache.dir
+/home/quangsang/ego_ws/build/offboard_control/CMakeFiles/list_install_components.dir
+/home/quangsang/ego_ws/build/offboard_control/CMakeFiles/install.dir
+/home/quangsang/ego_ws/build/offboard_control/CMakeFiles/install/local.dir
+/home/quangsang/ego_ws/build/offboard_control/CMakeFiles/install/strip.dir

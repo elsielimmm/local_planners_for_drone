@@ -1,0 +1,16 @@
+/home/quangsang/ego_ws/install/offboard_control/lib/offboard_control/px4_offboard_path
+/home/quangsang/ego_ws/install/offboard_control/share/ament_index/resource_index/package_run_dependencies/offboard_control
+/home/quangsang/ego_ws/install/offboard_control/share/ament_index/resource_index/parent_prefix_path/offboard_control
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/environment/ament_prefix_path.sh
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/environment/ament_prefix_path.dsv
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/environment/path.sh
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/environment/path.dsv
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/local_setup.bash
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/local_setup.sh
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/local_setup.zsh
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/local_setup.dsv
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/package.dsv
+/home/quangsang/ego_ws/install/offboard_control/share/ament_index/resource_index/packages/offboard_control
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/cmake/offboard_controlConfig.cmake
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/cmake/offboard_controlConfig-version.cmake
+/home/quangsang/ego_ws/install/offboard_control/share/offboard_control/package.xml

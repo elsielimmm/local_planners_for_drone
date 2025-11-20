@@ -1,0 +1,17 @@
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/lib/rosmsg_tcp_bridge/bridge_node
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/launch/bridge.launch.py
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/ament_index/resource_index/package_run_dependencies/rosmsg_tcp_bridge
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/ament_index/resource_index/parent_prefix_path/rosmsg_tcp_bridge
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/environment/ament_prefix_path.sh
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/environment/ament_prefix_path.dsv
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/environment/path.sh
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/environment/path.dsv
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/local_setup.bash
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/local_setup.sh
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/local_setup.zsh
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/local_setup.dsv
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/package.dsv
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/ament_index/resource_index/packages/rosmsg_tcp_bridge
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/cmake/rosmsg_tcp_bridgeConfig.cmake
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/cmake/rosmsg_tcp_bridgeConfig-version.cmake
+/home/quangsang/ego_ws/install/rosmsg_tcp_bridge/share/rosmsg_tcp_bridge/package.xml

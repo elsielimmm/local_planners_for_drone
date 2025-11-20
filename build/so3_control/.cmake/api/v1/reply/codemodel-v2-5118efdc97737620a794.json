@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e92a113075d882cc4261.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "so3_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SO3Control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SO3Control-Release-391f413ed71dbb306565.json",
+					"name" : "SO3Control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "control_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-control_example-Release-ccbb42eeb0fdad555b2d.json",
+					"name" : "control_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so3_control_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so3_control_component-Release-657e895ed8da8c87e21a.json",
+					"name" : "so3_control_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so3_control_component_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so3_control_component_node-Release-52b804f123698c99f573.json",
+					"name" : "so3_control_component_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so3_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so3_control_uninstall-Release-e38970c7b73552363ec6.json",
+					"name" : "so3_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-189d31f53e799b2baddc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/quangsang/ego_ws/build/so3_control",
+		"source" : "/home/quangsang/ego_ws/src/ego-planner-swarm/src/uav_simulator/so3_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
