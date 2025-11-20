@@ -1,8 +1,0 @@
-{
-  "package_name": "traj_utils",
-  "non_idl_tuples": [
-    "/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils:msg/Bspline.msg",
-    "/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils:msg/DataDisp.msg",
-    "/home/quangsang/ego_ws/src/ego-planner-swarm/src/planner/traj_utils:msg/MultiBsplines.msg"
-  ]
-}
