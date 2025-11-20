@@ -12,8 +12,10 @@ Local Planners For Drone là hệ thống lập kế hoạch quỹ đạo cục 
 - Môn: Kỹ thuật Robot
 - Giảng viên hướng dẫn: PGS. TS. Phan Trần Đăng Khoa
 - Nhóm: 21.44
-- Sinh viên thực hiện:
-Phạm Thị Phương - 106210050
-Trần Thanh Tín - 106210253
-Dương Thị Thảo Vi - 106210259
+  
+## Sinh viên thực hiện:
+- Phạm Thị Phương - 106210050
+- Trần Thanh Tín - 106210253
+- Dương Thị Thảo Vi - 106210259
+
 
